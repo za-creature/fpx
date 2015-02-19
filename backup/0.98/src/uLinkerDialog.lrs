@@ -1,0 +1,37 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TLinkerDialog','FORMDATA',[
+  'TPF0'#13'TLinkerDialog'#12'LinkerDialog'#13'ActiveControl'#7#24'LibraryType.'
+  +'RadioButton0'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsD'
+  +'ialog'#7'Caption'#6#17'Linker Properties'#12'ClientHeight'#3#145#0#11'Clien'
+  +'tWidth'#3#152#1#9'FormStyle'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Pos'
+  +'ition'#7#16'poMainFormCenter'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollB'
+  +'ar.Page'#3#151#1#18'VertScrollBar.Page'#3#144#0#4'Left'#3#163#1#6'Height'#3
+  +#145#0#3'Top'#3#194#1#5'Width'#3#152#1#0#11'TRadioGroup'#11'LibraryType'#8'A'
+  +'utoFill'#9#7'Caption'#6#21'Prefered Library Type'#28'ChildSizing.LeftRightS'
+  +'pacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHori'
+  +'zontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24
+  +'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChi'
+  +'lds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Lay'
+  +'out'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
+  +#13'Items.Strings'#1#6#14'Target Default'#6#24'Link to Static Libraries'#6#25
+  +'Link to Dynamic Libraries'#6#23'Link to Smart Libraries'#0#8'TabOrder'#2#0#4
+  +'Left'#3#208#0#6'Height'#2'`'#3'Top'#2#8#5'Width'#3#192#0#0#0#7'TButton'#12
+  +'CancelButton'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#6'Cancel'#7'On'
+  +'Click'#7#11'CancelClick'#8'TabOrder'#2#1#4'Left'#3#209#0#6'Height'#2#25#3'T'
+  +'op'#2'p'#5'Width'#2'K'#0#0#7'TButton'#8'OkButton'#25'BorderSpacing.InnerBor'
+  +'der'#2#4#7'Caption'#6#2'Ok'#7'OnClick'#7#7'OkClick'#8'TabOrder'#2#2#4'Left'
+  +#2'|'#6'Height'#2#25#3'Top'#2'p'#5'Width'#2'K'#0#0#11'TCheckGroup'#11'CheckG'
+  +'roup1'#8'AutoFill'#9#7'Caption'#6#13'Linking Stage'#28'ChildSizing.LeftRigh'
+  +'tSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHo'
+  +'rizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7
+  +#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScale'
+  +'Childs'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.'
+  +'Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'
+  +#2#1#8'TabOrder'#2#3#4'Left'#2#5#6'Height'#2'`'#3'Top'#2#8#5'Width'#3#195#0#0
+  +#9'TCheckBox'#15'CallLinkerAfter'#7'Caption'#6#17'Call Linker After'#8'TabOr'
+  +'der'#2#0#4'Left'#2#6#6'Height'#2'!'#3'Top'#2#6#5'Width'#3#179#0#0#0#9'TChec'
+  +'kBox'#16'OnlyLinkToStatic'#7'Caption'#6#29'Only link to Static Libraries'#8
+  +'TabOrder'#2#1#4'Left'#2#6#6'Height'#2'!'#3'Top'#2''''#5'Width'#3#179#0#0#0#0
+  +#0
+]);

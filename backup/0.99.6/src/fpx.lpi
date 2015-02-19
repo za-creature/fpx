@@ -1,0 +1,454 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+    </General>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="TurboPowerIPro"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SynEdit"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="43">
+      <Unit0>
+        <Filename Value="fpx.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpx"/>
+        <CursorPos X="2" Y="16"/>
+        <TopLine Value="2"/>
+        <UsageCount Value="203"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uMain.pp"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uMain.lrs"/>
+        <UnitName Value="uMain"/>
+        <CursorPos X="19" Y="1333"/>
+        <TopLine Value="1298"/>
+        <UsageCount Value="100"/>
+        <Bookmarks Count="3">
+          <Item0 X="11" Y="393" ID="1"/>
+          <Item1 X="1" Y="401" ID="2"/>
+          <Item2 X="4" Y="1865" ID="3"/>
+        </Bookmarks>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uCompilerOptionsDialog.pp"/>
+        <ComponentName Value="CompilerOptionsDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uCompilerOptionsDialog.lrs"/>
+        <UnitName Value="uCompilerOptionsDialog"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uMessageBoxController.pp"/>
+        <ComponentName Value="MessageBoxController"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uMessageBoxController.lrs"/>
+        <UnitName Value="uMessageBoxController"/>
+        <CursorPos X="12" Y="26"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uAboutDialog.pp"/>
+        <ComponentName Value="AboutDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uAboutDialog.lrs"/>
+        <UnitName Value="uAboutDialog"/>
+        <CursorPos X="1" Y="21"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="uEditorOptionsController.pp"/>
+        <UnitName Value="uEditorOptionsController"/>
+        <CursorPos X="1" Y="21"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uProcessListWindow.pp"/>
+        <ComponentName Value="ProcessListWindow"/>
+        <ResourceFilename Value="uProcessListWindow.lrs"/>
+        <UnitName Value="uProcessListWindow"/>
+        <CursorPos X="2" Y="25"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="35"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uAsciiTable.pp"/>
+        <ComponentName Value="ASCIITable"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uAsciiTable.lrs"/>
+        <UnitName Value="uAsciiTable"/>
+        <CursorPos X="1" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uEditorStyleDialog.pp"/>
+        <ComponentName Value="EditorStyleDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uEditorStyleDialog.lrs"/>
+        <UnitName Value="uEditorStyleDialog"/>
+        <CursorPos X="24" Y="30"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uDebugger.pp"/>
+        <UnitName Value="uDebugger"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="40"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uMemorySizesDialog.pp"/>
+        <ComponentName Value="MemorySizesDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uMemorySizesDialog.lrs"/>
+        <UnitName Value="uMemorySizesDialog"/>
+        <CursorPos X="21" Y="6"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uPrimaryFileDialog.pp"/>
+        <ComponentName Value="PrimaryFileDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uPrimaryFileDialog.lrs"/>
+        <UnitName Value="uPrimaryFileDialog"/>
+        <CursorPos X="10" Y="22"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="uRuntimeParametersDialog.pp"/>
+        <ComponentName Value="RuntimeParametersDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uRuntimeParametersDialog.lrs"/>
+        <UnitName Value="uRuntimeParametersDialog"/>
+        <CursorPos X="5" Y="24"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uTargetDialog.pp"/>
+        <ComponentName Value="TargetDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uTargetDialog.lrs"/>
+        <UnitName Value="uTargetDialog"/>
+        <CursorPos X="1" Y="19"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uCompilerModeDialog.pp"/>
+        <ComponentName Value="CompilerModeDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uCompilerModeDialog.lrs"/>
+        <UnitName Value="uCompilerModeDialog"/>
+        <CursorPos X="5" Y="28"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="uDirectoriesDialog.pp"/>
+        <ComponentName Value="DirectoriesDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uDirectoriesDialog.lrs"/>
+        <UnitName Value="uDirectoriesDialog"/>
+        <CursorPos X="14" Y="18"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="uEditorOptionsDialog.pp"/>
+        <ComponentName Value="EditorOptionsDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uEditorOptionsDialog.lrs"/>
+        <UnitName Value="uEditorOptionsDialog"/>
+        <CursorPos X="20" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="uFindDialog.pp"/>
+        <ComponentName Value="FindDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uFindDialog.lrs"/>
+        <UnitName Value="uFindDialog"/>
+        <CursorPos X="1" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="uGotoLineDialog.pp"/>
+        <ComponentName Value="GotoLineDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uGotoLineDialog.lrs"/>
+        <UnitName Value="uGotoLineDialog"/>
+        <CursorPos X="1" Y="23"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="10"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="uLinkerDialog.pp"/>
+        <ComponentName Value="LinkerDialog"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uLinkerDialog.lrs"/>
+        <UnitName Value="uLinkerDialog"/>
+        <CursorPos X="1" Y="17"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="uWatchListWindow.pp"/>
+        <ComponentName Value="WatchListWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uWatchListWindow.lrs"/>
+        <UnitName Value="uWatchListWindow"/>
+        <CursorPos X="1" Y="23"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="178"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\Lazarus\lcl\include\listcolumns.inc"/>
+        <CursorPos X="53" Y="85"/>
+        <TopLine Value="66"/>
+        <UsageCount Value="6"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="uAddWatchDialog.pp"/>
+        <ComponentName Value="AddWatchDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uAddWatchDialog.lrs"/>
+        <UnitName Value="uAddWatchDialog"/>
+        <CursorPos X="25" Y="25"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="174"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="uwatchlistwindow.lrs"/>
+        <CursorPos X="1" Y="2"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="6"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="uDebugOptionsDialog.pp"/>
+        <ComponentName Value="DebugOptionsDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uDebugOptionsDialog.lrs"/>
+        <UnitName Value="uDebugOptionsDialog"/>
+        <CursorPos X="16" Y="34"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="169"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="uBreakPointListWindow.pp"/>
+        <ComponentName Value="BreakPointListWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uBreakPointListWindow.lrs"/>
+        <UnitName Value="uBreakPointListWindow"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="148"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="uAddBreakPointDialog.pp"/>
+        <ComponentName Value="AddBreakpointDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uAddBreakPointDialog.lrs"/>
+        <UnitName Value="uAddBreakPointDialog"/>
+        <CursorPos X="13" Y="25"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="147"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="uCallStackWindow.pp"/>
+        <ComponentName Value="CallStackWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uCallStackWindow.lrs"/>
+        <UnitName Value="uCallStackWindow"/>
+        <CursorPos X="20" Y="20"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="142"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="uRegistersWindow.pp"/>
+        <ComponentName Value="RegistersWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uRegistersWindow.lrs"/>
+        <UnitName Value="uRegistersWindow"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="139"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="uDisassemblyWindow.pp"/>
+        <ComponentName Value="DisassemblyWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uDisassemblyWindow.lrs"/>
+        <UnitName Value="uDisassemblyWindow"/>
+        <CursorPos X="1" Y="12"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="129"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="structures.inc"/>
+        <CursorPos X="32" Y="5"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="8"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="keycodes.inc"/>
+        <CursorPos X="6" Y="122"/>
+        <TopLine Value="84"/>
+        <UsageCount Value="1"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="uHelpDialog.pp"/>
+        <ComponentName Value="HelpDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uHelpDialog.lrs"/>
+        <UnitName Value="uHelpDialog"/>
+        <CursorPos X="7" Y="150"/>
+        <TopLine Value="118"/>
+        <UsageCount Value="124"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="uHelpFilesDialog.pp"/>
+        <ComponentName Value="HelpFilesDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uHelpFilesDialog.lrs"/>
+        <UnitName Value="uHelpFilesDialog"/>
+        <CursorPos X="13" Y="155"/>
+        <TopLine Value="124"/>
+        <UsageCount Value="121"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="..\..\Lazarus\lcl\include\listitem.inc"/>
+        <CursorPos X="15" Y="194"/>
+        <TopLine Value="175"/>
+        <UsageCount Value="1"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="uBreakPointListWindow.lfm"/>
+        <CursorPos X="11" Y="6"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="2"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="avl.pp"/>
+        <UnitName Value="avl"/>
+        <CursorPos X="10" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="debuggertest.pas"/>
+        <UnitName Value="debuggertest"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="3"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="tagreader.pp"/>
+        <UnitName Value="tagreader"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="3"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="..\..\Lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <CursorPos X="1" Y="1400"/>
+        <TopLine Value="1381"/>
+        <UsageCount Value="6"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="uTagReader.pp"/>
+        <UnitName Value="uTagReader"/>
+        <CursorPos X="1" Y="12"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="23"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="uAVLTree.pp"/>
+        <UnitName Value="uAVLTree"/>
+        <CursorPos X="66" Y="13"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="20"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="uIndexDialog.pp"/>
+        <ComponentName Value="IndexDialog"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uIndexDialog.lrs"/>
+        <UnitName Value="uIndexDialog"/>
+        <CursorPos X="15" Y="229"/>
+        <TopLine Value="193"/>
+        <UsageCount Value="47"/>
+      </Unit42>
+    </Units>
+    <JumpHistory Count="0" HistoryIndex="-1"/>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

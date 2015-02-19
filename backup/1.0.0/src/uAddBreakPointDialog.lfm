@@ -1,0 +1,75 @@
+object AddBreakpointDialog: TAddBreakpointDialog
+  ActiveControl = OkButton
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Add Breakpoint'
+  ClientHeight = 135
+  ClientWidth = 170
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 169
+  VertScrollBar.Page = 134
+  Left = 377
+  Height = 135
+  Top = 274
+  Width = 170
+  object Label1: TLabel
+    Anchors = [akTop]
+    Caption = 'Line number'
+    Color = clNone
+    ParentColor = False
+    Left = 55
+    Height = 14
+    Top = 8
+    Width = 59
+  end
+  object Label2: TLabel
+    Anchors = [akTop]
+    Caption = 'File Name'
+    Color = clNone
+    ParentColor = False
+    Left = 61
+    Height = 14
+    Top = 56
+    Width = 47
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    OnClick = OkButtonClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelButtonClick
+    TabOrder = 1
+    Left = 87
+    Height = 25
+    Top = 104
+    Width = 75
+  end
+  object FilenameComboBox: TComboBox
+    AutoCompleteText = [cbactEndOfLineComplete, cbactSearchAscending]
+    MaxLength = 0
+    OnSelect = FilenameSelect
+    TabOrder = 2
+    Left = 8
+    Height = 21
+    Top = 72
+    Width = 154
+  end
+  object LineNumber: TSpinEdit
+    TabOrder = 3
+    Left = 8
+    Height = 20
+    Top = 32
+    Width = 154
+  end
+end

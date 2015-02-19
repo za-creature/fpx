@@ -1,0 +1,23 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TBreakPointListWindow','FORMDATA',[
+  'TPF0'#21'TBreakPointListWindow'#20'BreakPointListWindow'#13'ActiveControl'#7
+  +#9'AddButton'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#13'bsS'
+  +'izeToolWin'#7'Caption'#6#11'Breakpoints'#12'ClientHeight'#3#150#0#11'Client'
+  +'Width'#3#144#1#9'FormStyle'#7#11'fsStayOnTop'#7'OnClose'#7#9'FormClose'#13
+  +'PixelsPerInch'#2'`'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3
+  +#143#1#18'VertScrollBar.Page'#3#149#0#6'Height'#3#150#0#3'Top'#3#9#1#5'Width'
+  +#3#144#1#0#7'TButton'#9'AddButton'#7'Anchors'#11#6'akLeft'#8'akBottom'#0#25
+  +'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#3'Add'#7'OnClick'#7#14'AddButto'
+  +'nClick'#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2#25#3'Top'#2'z'#5'Width'#2'K'
+  +#0#0#7'TButton'#11'ClearButton'#7'Anchors'#11#7'akRight'#8'akBottom'#0#25'Bo'
+  +'rderSpacing.InnerBorder'#2#4#7'Caption'#6#5'Clear'#7'OnClick'#7#16'ClearBut'
+  +'tonClick'#8'TabOrder'#2#1#4'Left'#3'='#1#6'Height'#2#25#3'Top'#2'z'#5'Width'
+  +#2'K'#0#0#7'TButton'#12'DeleteButton'#7'Anchors'#11#8'akBottom'#0#25'BorderS'
+  +'pacing.InnerBorder'#2#4#7'Caption'#6#6'Delete'#7'OnClick'#7#17'DeleteButton'
+  +'Click'#8'TabOrder'#2#2#4'Left'#3#162#0#6'Height'#2#25#3'Top'#2'z'#5'Width'#2
+  +'K'#0#0#9'TListView'#14'BreakPointList'#7'Anchors'#11#5'akTop'#6'akLeft'#7'a'
+  +'kRight'#8'akBottom'#0#7'Columns'#14#1#7'Caption'#6#4'Type'#0#1#7'Caption'#6
+  +#13'Line/Function'#5'Width'#3'T'#1#0#0#11'MultiSelect'#9#9'RowSelect'#9#8'Ta'
+  +'bOrder'#2#3#9'ViewStyle'#7#8'vsReport'#6'Height'#2't'#5'Width'#3#144#1#0#0#0
+]);

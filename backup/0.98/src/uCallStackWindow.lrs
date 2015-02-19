@@ -1,0 +1,16 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TCallStackWindow','FORMDATA',[
+  'TPF0'#16'TCallStackWindow'#15'CallStackWindow'#13'ActiveControl'#7#9'CallSta'
+  +'ck'#11'BorderStyle'#7#13'bsSizeToolWin'#7'Caption'#6#10'Call Stack'#12'Clie'
+  +'ntHeight'#2'd'#11'ClientWidth'#3#144#1#9'FormStyle'#7#11'fsStayOnTop'#7'OnC'
+  +'lose'#7#9'FormClose'#13'PixelsPerInch'#2'`'#8'Position'#7#9'poDefault'#13'S'
+  +'howInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.'
+  +'Page'#2'c'#4'Left'#3#144#1#6'Height'#2'd'#3'Top'#2'P'#5'Width'#3#144#1#0#9
+  +'TListView'#9'CallStack'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBot'
+  +'tom'#0#7'Columns'#14#1#7'Caption'#6#2'Id'#5'Width'#2#30#0#1#7'Caption'#6#7
+  +'Address'#5'Width'#2'<'#0#1#7'Caption'#6#4'Name'#5'Width'#2'U'#0#1#7'Caption'
+  +#6#9'Arguments'#5'Width'#2'U'#0#1#7'Caption'#6#8'Filename'#5'Width'#2'U'#0#1
+  +#7'Caption'#6#4'Line'#0#0#8'TabOrder'#2#0#9'ViewStyle'#7#8'vsReport'#6'Heigh'
+  +'t'#2'd'#5'Width'#3#144#1#0#0#0
+]);

@@ -1,0 +1,18 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TBookmarkListWindow','FORMDATA',[
+  'TPF0'#19'TBookmarkListWindow'#18'BookmarkListWindow'#13'ActiveControl'#7#12
+  +'BookmarkList'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#13'bs'
+  +'SizeToolWin'#7'Caption'#6#9'Bookmarks'#12'ClientHeight'#3#150#0#11'ClientWi'
+  +'dth'#3#144#1#9'FormStyle'#7#11'fsStayOnTop'#10'OnActivate'#7#12'FormActivat'
+  +'e'#12'OnDeactivate'#7#14'FormDeactivate'#13'PixelsPerInch'#2'`'#13'ShowInTa'
+  +'skBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.Page'#3
+  +#149#0#4'Left'#3#16#1#6'Height'#3#150#0#3'Top'#2'd'#5'Width'#3#144#1#0#9'TLi'
+  +'stView'#12'BookmarkList'#5'Align'#7#8'alClient'#7'Columns'#14#1#7'Caption'#6
+  +#4'Name'#5'Width'#3#190#0#0#1#7'Caption'#6#8'Filename'#5'Width'#3#150#0#0#1#7
+  +'Caption'#6#4'Line'#5'Width'#2'('#0#0#8'ReadOnly'#9#9'RowSelect'#9#8'TabOrde'
+  +'r'#2#0#9'ViewStyle'#7#8'vsReport'#10'OnDblClick'#7#20'BookmarkListDblClick'
+  +#6'Height'#3#150#0#5'Width'#3#144#1#0#0#10'TIdleTimer'#9'IdleTimer'#7'Enable'
+  +'d'#8#8'Interval'#3#244#1#7'OnTimer'#7#14'IdleTimerTimer'#4'left'#2'p'#3'top'
+  +#2#8#0#0#0
+]);

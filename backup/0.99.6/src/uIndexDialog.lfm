@@ -1,0 +1,70 @@
+object IndexDialog: TIndexDialog
+  ActiveControl = EditBox
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Help Index'
+  ClientHeight = 300
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 299
+  Left = 510
+  Height = 300
+  Top = 318
+  Width = 400
+  object EditGroupBox: TGroupBox
+    Anchors = [akTop, akLeft, akRight]
+    Caption = 'Search for:'
+    ClientHeight = 31
+    ClientWidth = 380
+    TabOrder = 0
+    Left = 8
+    Height = 49
+    Top = 8
+    Width = 384
+    object EditBox: TEdit
+      Anchors = [akTop, akLeft, akRight]
+      OnChange = EditBoxChange
+      OnKeyDown = EditBoxKeyDown
+      TabOrder = 0
+      Left = 8
+      Height = 23
+      Width = 365
+    end
+  end
+  object TopicListGroupBox: TGroupBox
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Caption = 'Topic list:'
+    ClientHeight = 182
+    ClientWidth = 380
+    TabOrder = 1
+    Left = 8
+    Height = 200
+    Top = 64
+    Width = 384
+    object TopicList: TListBox
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      OnKeyDown = TopicListKeyDown
+      TabOrder = 0
+      Left = 8
+      Height = 168
+      Top = 8
+      Width = 365
+    end
+  end
+  object DisplayButton: TButton
+    Anchors = [akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Display'
+    Default = True
+    OnClick = DisplayButtonClick
+    TabOrder = 2
+    Left = 162
+    Height = 25
+    Top = 272
+    Width = 75
+  end
+end

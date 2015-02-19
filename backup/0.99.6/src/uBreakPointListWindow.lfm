@@ -1,0 +1,70 @@
+object BreakPointListWindow: TBreakPointListWindow
+  ActiveControl = AddButton
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Breakpoints'
+  ClientHeight = 146
+  ClientWidth = 396
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  PixelsPerInch = 96
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 395
+  VertScrollBar.Page = 145
+  Left = 272
+  Height = 146
+  Top = 240
+  Width = 396
+  object AddButton: TButton
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Add'
+    OnClick = AddButtonClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 118
+    Width = 75
+  end
+  object ClearButton: TButton
+    Anchors = [akRight, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Clear'
+    OnClick = ClearButtonClick
+    TabOrder = 1
+    Left = 313
+    Height = 25
+    Top = 118
+    Width = 75
+  end
+  object DeleteButton: TButton
+    Anchors = [akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Delete'
+    OnClick = DeleteButtonClick
+    TabOrder = 2
+    Left = 160
+    Height = 25
+    Top = 118
+    Width = 75
+  end
+  object BreakPointList: TListView
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Filename'
+        Width = 150
+      end    
+      item
+        Caption = 'Line'
+        Width = 230
+      end>
+    MultiSelect = True
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 3
+    ViewStyle = vsReport
+    Height = 112
+    Width = 396
+  end
+end

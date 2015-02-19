@@ -1,0 +1,20 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TPrimaryFileDialog','FORMDATA',[
+  'TPF0'#18'TPrimaryFileDialog'#17'PrimaryFileDialog'#13'ActiveControl'#7#8'OkB'
+  +'utton'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7
+  +'Caption'#6#12'Primary File'#12'ClientHeight'#3#212#0#11'ClientWidth'#3#184#0
+  +#9'FormStyle'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Position'#7#16'poMa'
+  +'inFormCenter'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#183#0
+  +#18'VertScrollBar.Page'#3#211#0#4'Left'#3'F'#2#6'Height'#3#212#0#3'Top'#3'f'
+  +#1#5'Width'#3#184#0#0#6'TLabel'#16'PrimaryFileLabel'#9'Alignment'#7#8'taCent'
+  +'er'#7'Caption'#6#24'Select the Primary File:'#5'Color'#7#6'clNone'#6'Layout'
+  +#7#8'tlCenter'#11'ParentColor'#8#6'Height'#2#14#3'Top'#2#8#5'Width'#2'o'#0#0
+  +#7'TButton'#8'OkButton'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#2'OK'
+  +#7'OnClick'#7#7'OkClick'#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2#25#3'Top'#3
+  +#176#0#5'Width'#2'P'#0#0#7'TButton'#12'CancelButton'#25'BorderSpacing.InnerB'
+  +'order'#2#4#7'Caption'#6#6'Cancel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2
+  +#1#4'Left'#2'`'#6'Height'#2#25#3'Top'#3#176#0#5'Width'#2'P'#0#0#8'TListBox'#8
+  +'FileList'#8'TabOrder'#2#2#4'Left'#2#8#6'Height'#3#144#0#3'Top'#2#24#5'Width'
+  +#3#168#0#0#0#0
+]);

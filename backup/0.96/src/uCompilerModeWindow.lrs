@@ -1,0 +1,15 @@
+LazarusResources.Add('TCompilerModeWindow','FORMDATA',[
+  'TPF0'#19'TCompilerModeWindow'#18'CompilerModeWindow'#11'BorderIcons'#11#0#11
+  +'BorderStyle'#7#8'bsSingle'#7'Caption'#6#4'Mode'#12'ClientHeight'#3#143#0#11
+  +'ClientWidth'#3#176#0#12'OnCloseQuery'#7#14'FormCloseQuery'#13'PixelsPerInch'
+  +#2'`'#8'Position'#7#16'poMainFormCenter'#18'HorzScrollBar.Page'#3#175#0#18'V'
+  +'ertScrollBar.Page'#3#142#0#4'Left'#3#167#2#6'Height'#3#143#0#3'Top'#3#177#1
+  +#5'Width'#3#176#0#0#11'TRadioGroup'#12'CompilerMode'#7'Caption'#6#14'Compile'
+  +'r Mode:'#13'Items.Strings'#1#6#6'Normal'#6#5'Debug'#6#7'Release'#0#11'Paren'
+  +'tColor'#9#4'Left'#2'('#6'Height'#2'`'#3'Top'#2#8#5'Width'#2'h'#0#0#7'TButto'
+  +'n'#8'OkButton'#25'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#2'Ok'#7'OnCli'
+  +'ck'#7#7'OkClick'#8'TabOrder'#2#1#4'Left'#2#8#6'Height'#2#25#3'Top'#2'p'#5'W'
+  +'idth'#2'K'#0#0#7'TButton'#12'CancelButton'#25'BorderSpacing.InnerBorder'#2#2
+  +#7'Caption'#6#6'Cancel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2#2#4'Left'
+  +#2'`'#6'Height'#2#25#3'Top'#2'p'#5'Width'#2'K'#0#0#0
+]);

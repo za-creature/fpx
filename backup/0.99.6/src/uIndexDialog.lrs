@@ -1,0 +1,25 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TIndexDialog','FORMDATA',[
+  'TPF0'#12'TIndexDialog'#11'IndexDialog'#13'ActiveControl'#7#7'EditBox'#11'Bor'
+  +'derIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsSingle'#7'Caption'#6
+  +#10'Help Index'#12'ClientHeight'#3','#1#11'ClientWidth'#3#144#1#9'FormStyle'
+  +#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Position'#7#16'poMainFormCenter'
+  +#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#143#1#18'VertScroll'
+  +'Bar.Page'#3'+'#1#4'Left'#3#254#1#6'Height'#3','#1#3'Top'#3'>'#1#5'Width'#3
+  +#144#1#0#9'TGroupBox'#12'EditGroupBox'#7'Anchors'#11#5'akTop'#6'akLeft'#7'ak'
+  +'Right'#0#7'Caption'#6#11'Search for:'#12'ClientHeight'#2#31#11'ClientWidth'
+  +#3'|'#1#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2'1'#3'Top'#2#8#5'Width'#3#128
+  +#1#0#5'TEdit'#7'EditBox'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#0#8'OnC'
+  +'hange'#7#13'EditBoxChange'#9'OnKeyDown'#7#14'EditBoxKeyDown'#8'TabOrder'#2#0
+  +#4'Left'#2#8#6'Height'#2#23#5'Width'#3'm'#1#0#0#0#9'TGroupBox'#17'TopicListG'
+  +'roupBox'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'#0#7'Captio'
+  +'n'#6#11'Topic list:'#12'ClientHeight'#3#182#0#11'ClientWidth'#3'|'#1#8'TabO'
+  +'rder'#2#1#4'Left'#2#8#6'Height'#3#200#0#3'Top'#2'@'#5'Width'#3#128#1#0#8'TL'
+  +'istBox'#9'TopicList'#7'Anchors'#11#5'akTop'#6'akLeft'#7'akRight'#8'akBottom'
+  +#0#9'OnKeyDown'#7#16'TopicListKeyDown'#8'TabOrder'#2#0#4'Left'#2#8#6'Height'
+  +#3#168#0#3'Top'#2#8#5'Width'#3'm'#1#0#0#0#7'TButton'#13'DisplayButton'#7'Anc'
+  +'hors'#11#8'akBottom'#0#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#7'Dis'
+  +'play'#7'Default'#9#7'OnClick'#7#18'DisplayButtonClick'#8'TabOrder'#2#2#4'Le'
+  +'ft'#3#162#0#6'Height'#2#25#3'Top'#3#16#1#5'Width'#2'K'#0#0#0
+]);

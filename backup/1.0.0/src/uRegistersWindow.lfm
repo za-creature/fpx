@@ -1,0 +1,190 @@
+object RegistersWindow: TRegistersWindow
+  ActiveControl = SSESizeSelector.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Registers'
+  ClientHeight = 200
+  ClientWidth = 300
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  Position = poDefault
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 299
+  VertScrollBar.Page = 199
+  Left = 500
+  Height = 200
+  Top = 400
+  Width = 300
+  object PageController: TPageControl
+    ActivePage = SSESheet
+    Align = alClient
+    TabIndex = 3
+    TabOrder = 0
+    Height = 200
+    Width = 300
+    object GeneralPurposeSheet: TTabSheet
+      Caption = 'General Purpose'
+      ClientHeight = 174
+      ClientWidth = 292
+      Height = 174
+      Width = 292
+      object GeneralRegisters: TListView
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Name'
+          end        
+          item
+            Caption = 'Hexadecimal'
+            Width = 110
+          end        
+          item
+            Caption = 'Decimal'
+            Width = 110
+          end>
+        MultiSelect = True
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        Height = 174
+        Width = 292
+      end
+    end
+    object FloatingPointSheet: TTabSheet
+      Caption = 'Floating Point'
+      ClientHeight = 174
+      ClientWidth = 292
+      Height = 174
+      Width = 292
+      object FloatingPointRegisters: TListView
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Name'
+          end        
+          item
+            Caption = 'FP Value'
+            Width = 120
+          end        
+          item
+            Caption = 'Raw Value'
+            Width = 115
+          end>
+        MultiSelect = True
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 0
+        ViewStyle = vsReport
+        Height = 174
+        Width = 292
+      end
+    end
+    object MMXSheet: TTabSheet
+      Caption = 'MMX'
+      ClientHeight = 174
+      ClientWidth = 292
+      Height = 174
+      Width = 292
+      object MMXSizeSelector: TRadioGroup
+        Align = alBottom
+        AutoFill = True
+        Caption = 'View registers as:'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 4
+        Columns = 4
+        ItemIndex = 0
+        Items.Strings = (
+          'v8_int8'
+          'v4_int16'
+          'v2_int32'
+          'int64'
+        )
+        OnClick = MMXSizeSelectorClick
+        TabOrder = 0
+        Height = 40
+        Top = 134
+        Width = 292
+      end
+      object MMXRegisters: TListView
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Name'
+          end        
+          item
+            Caption = 'Value'
+            Width = 220
+          end>
+        MultiSelect = True
+        RowSelect = True
+        TabOrder = 1
+        ViewStyle = vsReport
+        Height = 134
+        Width = 292
+      end
+    end
+    object SSESheet: TTabSheet
+      Caption = 'SSE'
+      ClientHeight = 174
+      ClientWidth = 292
+      Height = 174
+      Width = 292
+      object SSESizeSelector: TRadioGroup
+        Align = alBottom
+        AutoFill = True
+        Caption = 'View registers as:'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 4
+        Columns = 4
+        ItemIndex = 0
+        Items.Strings = (
+          'v16_int8'
+          'v8_int16'
+          'v4_int32'
+          'v2_int64'
+          'v4_float'
+          'v2_double'
+          'int128'
+        )
+        OnClick = SSESizeSelectorClick
+        TabOrder = 0
+        Height = 60
+        Top = 114
+        Width = 292
+      end
+      object SSERegisters: TListView
+        Align = alClient
+        Columns = <        
+          item
+            Caption = 'Name'
+          end        
+          item
+            Caption = 'Value'
+            Width = 220
+          end>
+        MultiSelect = True
+        ReadOnly = True
+        RowSelect = True
+        TabOrder = 1
+        ViewStyle = vsReport
+        Height = 114
+        Width = 292
+      end
+    end
+  end
+end

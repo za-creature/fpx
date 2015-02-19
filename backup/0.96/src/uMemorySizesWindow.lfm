@@ -1,0 +1,72 @@
+object MemorySizesWindow: TMemorySizesWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Memory Sizes'
+  ClientHeight = 138
+  ClientWidth = 138
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 137
+  VertScrollBar.Page = 137
+  Left = 590
+  Height = 138
+  Top = 360
+  Width = 138
+  object HeapSizeLabel: TLabel
+    Caption = 'Heap Size:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 8
+    Width = 51
+  end
+  object StackSizeLabel: TLabel
+    Caption = 'Stack Size:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 56
+    Width = 52
+  end
+  object OkButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 56
+  end
+  object CancelButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 72
+    Height = 25
+    Top = 104
+    Width = 56
+  end
+  object HeapSize: TSpinEdit
+    ClimbRate = 1
+    MaxValue = 100
+    TabOrder = 2
+    Left = 44
+    Height = 20
+    Top = 80
+    Width = 84
+  end
+  object StackSize: TSpinEdit
+    ClimbRate = 1
+    MaxValue = 100
+    TabOrder = 3
+    Left = 44
+    Height = 20
+    Top = 32
+    Width = 84
+  end
+end

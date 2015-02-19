@@ -1,0 +1,94 @@
+object LinkerDialog: TLinkerDialog
+  ActiveControl = LibraryType.RadioButton0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Linker Properties'
+  ClientHeight = 145
+  ClientWidth = 408
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 407
+  VertScrollBar.Page = 144
+  Left = 419
+  Height = 145
+  Top = 450
+  Width = 408
+  object LibraryType: TRadioGroup
+    AutoFill = True
+    Caption = 'Prefered Library Type'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    Items.Strings = (
+      'Target Default'
+      'Link to Static Libraries'
+      'Link to Dynamic Libraries'
+      'Link to Smart Libraries'
+    )
+    TabOrder = 0
+    Left = 208
+    Height = 96
+    Top = 8
+    Width = 192
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 209
+    Height = 25
+    Top = 112
+    Width = 75
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 2
+    Left = 124
+    Height = 25
+    Top = 112
+    Width = 75
+  end
+  object CheckGroup1: TCheckGroup
+    AutoFill = True
+    Caption = 'Linking Stage'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 3
+    Left = 5
+    Height = 96
+    Top = 8
+    Width = 195
+    object CallLinkerAfter: TCheckBox
+      Caption = 'Call Linker After'
+      TabOrder = 0
+      Left = 6
+      Height = 33
+      Top = 6
+      Width = 179
+    end
+    object OnlyLinkToStatic: TCheckBox
+      Caption = 'Only link to Static Libraries'
+      TabOrder = 1
+      Left = 6
+      Height = 33
+      Top = 39
+      Width = 179
+    end
+  end
+end

@@ -1,0 +1,31 @@
+object HelpDialog: THelpDialog
+  BorderIcons = [biSystemMenu, biMaximize]
+  Caption = 'Help'
+  ClientHeight = 550
+  ClientWidth = 750
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  Position = poDefault
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 749
+  VertScrollBar.Page = 549
+  Left = 286
+  Height = 550
+  Top = 149
+  Width = 750
+  object HtmlPanel: TIpHtmlPanel
+    Align = alClient
+    ALinkColor = clBlue
+    FixedTypeface = 'Courier New'
+    DefaultTypeFace = 'default'
+    PrintSettings.MarginLeft = 0.5
+    PrintSettings.MarginTop = 0.5
+    PrintSettings.MarginRight = 0.5
+    PrintSettings.MarginBottom = 0.5
+    ShowHints = False
+    OnHotClick = HotClick
+    Height = 550
+    Width = 750
+  end
+end

@@ -1,0 +1,72 @@
+object MemorySizesDialog: TMemorySizesDialog
+  ActiveControl = HeapSize
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Memory Sizes'
+  ClientHeight = 138
+  ClientWidth = 138
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 137
+  VertScrollBar.Page = 137
+  Left = 590
+  Height = 138
+  Top = 360
+  Width = 138
+  object HeapSizeLabel: TLabel
+    Caption = 'Heap Size:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 52
+  end
+  object StackSizeLabel: TLabel
+    Caption = 'Stack Size:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 56
+    Width = 53
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    Default = True
+    OnClick = OkClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 104
+    Width = 56
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 72
+    Height = 25
+    Top = 104
+    Width = 56
+  end
+  object HeapSize: TSpinEdit
+    TabOrder = 2
+    Left = 44
+    Height = 20
+    Top = 80
+    Width = 84
+  end
+  object StackSize: TSpinEdit
+    TabOrder = 3
+    Left = 44
+    Height = 20
+    Top = 32
+    Width = 84
+  end
+end

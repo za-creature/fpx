@@ -1,0 +1,49 @@
+object CallStackWindow: TCallStackWindow
+  ActiveControl = CallStack
+  BorderStyle = bsSizeToolWin
+  Caption = 'Call Stack'
+  ClientHeight = 100
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  PixelsPerInch = 96
+  Position = poDefault
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 99
+  Left = 400
+  Height = 100
+  Top = 80
+  Width = 400
+  object CallStack: TListView
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Id'
+        Width = 30
+      end    
+      item
+        Caption = 'Address'
+        Width = 60
+      end    
+      item
+        Caption = 'Name'
+        Width = 85
+      end    
+      item
+        Caption = 'Arguments'
+        Width = 85
+      end    
+      item
+        Caption = 'Filename'
+        Width = 85
+      end    
+      item
+        Caption = 'Line'
+      end>
+    TabOrder = 0
+    ViewStyle = vsReport
+    Height = 100
+    Width = 400
+  end
+end

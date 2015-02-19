@@ -1,0 +1,105 @@
+object ProcessListWindow: TProcessListWindow
+  ActiveControl = ProcessList
+  BorderIcons = [biSystemMenu, biMaximize]
+  Caption = 'Process List'
+  ClientHeight = 268
+  ClientWidth = 640
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 639
+  VertScrollBar.Page = 267
+  Left = 344
+  Height = 268
+  Top = 301
+  Width = 640
+  object GenericGroup: TGroupBox
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Caption = 'Active subprocesses:'
+    ClientHeight = 207
+    ClientWidth = 621
+    TabOrder = 0
+    Left = 8
+    Height = 225
+    Top = 8
+    Width = 625
+    object ProcessList: TStringGrid
+      Anchors = [akTop, akLeft, akRight, akBottom]
+      AutoAdvance = aaDown
+      ColCount = 4
+      FixedColor = clBtnFace
+      FixedCols = 0
+      GridLineWidth = 0
+      Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goColSizing, goRowSelect, goDblClickAutoSize, goSmoothScroll]
+      RowCount = 1
+      ScrollBars = ssAutoBoth
+      TabOrder = 0
+      TabStop = True
+      TitleStyle = tsNative
+      VisibleColCount = 4
+      Left = 6
+      Height = 200
+      Width = 608
+      ColWidths = (
+        126
+        272
+        91
+        85
+      )
+      Cells = (
+        4
+        0
+        0
+        'Process name'
+        1
+        0
+        'Command Line'
+        2
+        0
+        'Arguments'
+        3
+        0
+        'Started at'
+      )
+    end
+  end
+  object KillButton: TButton
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Terminate'
+    OnClick = KillButtonClick
+    TabOrder = 1
+    Left = 8
+    Height = 25
+    Top = 240
+    Width = 75
+  end
+  object DoneButton: TButton
+    Anchors = [akRight, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Close'
+    OnClick = DoneButtonClick
+    TabOrder = 2
+    Left = 558
+    Height = 25
+    Top = 240
+    Width = 75
+  end
+  object FocusButton: TButton
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Bring to Front'
+    OnClick = FocusButtonClick
+    TabOrder = 3
+    Left = 88
+    Height = 25
+    Top = 240
+    Width = 75
+  end
+  object IdleTimer: TTimer
+    OnTimer = IdleTimerTimer
+    left = 240
+    top = 520
+  end
+end

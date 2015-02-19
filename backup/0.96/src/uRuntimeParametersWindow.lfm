@@ -1,0 +1,56 @@
+object RuntimeParametersWindow: TRuntimeParametersWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Parameters'
+  ClientHeight = 90
+  ClientWidth = 200
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 199
+  VertScrollBar.Page = 89
+  Left = 580
+  Height = 90
+  Top = 360
+  Width = 200
+  object Parameters: TLabeledEdit
+    BorderSpacing.OnChange = nil
+    EditLabel.Caption = 'Enter the runtime parameters:'
+    EditLabel.Color = clNone
+    EditLabel.Height = 13
+    EditLabel.Left = 8
+    EditLabel.Top = 9
+    EditLabel.Width = 146
+    EditLabel.Left = 8
+    EditLabel.Height = 13
+    EditLabel.Top = 9
+    EditLabel.Width = 146
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 24
+    Width = 184
+  end
+  object OkButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 1
+    Left = 16
+    Height = 25
+    Top = 56
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 2
+    Left = 104
+    Height = 25
+    Top = 56
+    Width = 75
+  end
+end

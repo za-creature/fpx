@@ -1,0 +1,150 @@
+LazarusResources.Add('TCompilerOptionsDialog','FORMDATA',[
+  'TPF0'#22'TCompilerOptionsDialog'#21'CompilerOptionsDialog'#13'ActiveControl'
+  +#7#12'ObjectPascal'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8
+  +'bsSingle'#7'Caption'#6#17'Compiler Switches'#12'ClientHeight'#3#250#0#11'Cl'
+  +'ientWidth'#3#150#1#9'FormStyle'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8
+  +'Position'#7#16'poMainFormCenter'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScro'
+  +'llBar.Page'#3#149#1#18'VertScrollBar.Page'#3#249#0#4'Left'#3#168#1#6'Height'
+  +#3#250#0#3'Top'#3'~'#1#5'Width'#3#150#1#0#7'TButton'#8'OkButton'#25'BorderSp'
+  +'acing.InnerBorder'#2#4#7'Caption'#6#2'Ok'#7'Default'#9#7'OnClick'#7#7'OkCli'
+  +'ck'#8'TabOrder'#2#0#4'Left'#2's'#6'Height'#2#25#3'Top'#3#216#0#5'Width'#2'K'
+  +#0#0#7'TButton'#12'CancelButton'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'
+  +#9#7'Caption'#6#6'Cancel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2#1#4'Lef'
+  +'t'#3#200#0#6'Height'#2#25#3'Top'#3#216#0#5'Width'#2'K'#0#0#12'TPageControl'
+  +#14'PageController'#10'ActivePage'#7#11'SyntaxSheet'#8'TabIndex'#2#0#8'TabOr'
+  +'der'#2#2#4'Left'#2#8#6'Height'#3#208#0#3'Top'#2#8#5'Width'#3#136#1#0#9'TTab'
+  +'Sheet'#11'SyntaxSheet'#7'Caption'#6#6'Syntax'#12'ClientHeight'#3#182#0#11'C'
+  +'lientWidth'#3#128#1#6'Height'#3#182#0#5'Width'#3#128#1#0#11'TCheckGroup'#13
+  +'SyntaxOptions'#8'AutoFill'#9#7'Caption'#6#14'Syntax Options'#28'ChildSizing'
+  +'.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.'
+  +'EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVer'
+  +'tical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14
+  +'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'Chil'
+  +'dSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.Controls'
+  +'PerLine'#2#2#7'Columns'#2#2#8'TabOrder'#2#0#4'Left'#2#4#6'Height'#3#176#0#3
+  +'Top'#2#2#5'Width'#3'v'#1#0#9'TCheckBox'#12'ObjectPascal'#7'Caption'#6#21'Ob'
+  +'ject Pascal Support'#8'TabOrder'#2#0#4'Left'#2#6#6'Height'#2#30#3'Top'#2#6#5
+  +'Width'#3#185#0#0#0#9'TCheckBox'#13'GlobalCMacros'#7'Caption'#6#15'Global C '
+  +'Macros'#8'TabOrder'#2#1#4'Left'#3#191#0#6'Height'#2#30#3'Top'#2#6#5'Width'#3
+  +#173#0#0#0#9'TCheckBox'#12'TPCompatible'#7'Caption'#6#23'TP/BP 7.0 Compatibi'
+  +'lity'#8'TabOrder'#2#2#4'Left'#2#6#6'Height'#2#30#3'Top'#2'$'#5'Width'#3#185
+  +#0#0#0#9'TCheckBox'#10'COperators'#7'Caption'#6#16'C-Like Operators'#8'TabOr'
+  +'der'#2#3#4'Left'#3#191#0#6'Height'#2#30#3'Top'#2'$'#5'Width'#3#173#0#0#0#9
+  +'TCheckBox'#16'DelphiCompatible'#7'Caption'#6#20'Delphi Compatibility'#8'Tab'
+  +'Order'#2#4#4'Left'#2#6#6'Height'#2#30#3'Top'#2'B'#5'Width'#3#185#0#0#0#9'TC'
+  +'heckBox'#19'StopAfterFirstError'#7'Caption'#6#22'Stop After First Error'#8
+  +'TabOrder'#2#5#4'Left'#3#191#0#6'Height'#2#30#3'Top'#2'B'#5'Width'#3#173#0#0
+  +#0#9'TCheckBox'#15'StaticInObjects'#7'Caption'#6#23'Allow Static In Objects'
+  +#8'TabOrder'#2#6#4'Left'#2#6#6'Height'#2#30#3'Top'#2'`'#5'Width'#3#185#0#0#0
+  +#9'TCheckBox'#10'AllowLabel'#7'Caption'#6#20'Allow Label and Goto'#8'TabOrde'
+  +'r'#2#7#4'Left'#3#191#0#6'Height'#2#30#3'Top'#2'`'#5'Width'#3#173#0#0#0#9'TC'
+  +'heckBox'#7'CInline'#7'Caption'#6#17'C++ Styled Inline'#8'TabOrder'#2#8#4'Le'
+  +'ft'#2#6#6'Height'#2#26#3'Top'#2'~'#5'Width'#3#185#0#0#0#0#0#9'TTabSheet'#19
+  +'CodeGenerationSheet'#7'Caption'#6#16'Code  Generation'#12'ClientHeight'#3
+  +#182#0#11'ClientWidth'#3#128#1#6'Height'#3#182#0#5'Width'#3#128#1#0#9'TGroup'
+  +'Box'#13'Optimizations'#7'Caption'#6#13'Optimizations'#12'ClientHeight'#3#158
+  +#0#11'ClientWidth'#3#170#0#8'TabOrder'#2#0#4'Left'#3#204#0#6'Height'#3#176#0
+  +#3'Top'#2#2#5'Width'#3#174#0#0#12'TRadioButton'#18'GenerateFasterCode'#7'Cap'
+  +'tion'#6#20'Generate Faster Code'#7'Checked'#9#5'State'#7#9'cbChecked'#8'Tab'
+  +'Order'#2#0#4'Left'#2#6#6'Height'#2#13#3'Top'#2#10#5'Width'#2'|'#0#0#12'TRad'
+  +'ioButton'#19'GenerateSmallerCode'#7'Caption'#6#21'Generate Smaller Code'#8
+  +'TabOrder'#2#1#4'Left'#2#6#6'Height'#2#13#3'Top'#2#30#5'Width'#3#129#0#0#0#9
+  +'TCheckBox'#17'RegisterVariables'#7'Caption'#6#22'Use Register Variables'#8
+  +'TabOrder'#2#2#4'Left'#2#6#6'Height'#2#13#3'Top'#2'2'#5'Width'#2''#0#0#9'TC'
+  +'heckBox'#22'UncertainOptimizations'#7'Caption'#6#23'Uncertain Optimizations'
+  +#8'TabOrder'#2#3#4'Left'#2#6#6'Height'#2#13#3'Top'#2'F'#5'Width'#3#131#0#0#0
+  +#9'TCheckBox'#15'L1Optimizations'#7'Caption'#6#21'Level 1 Optimizations'#8'T'
+  +'abOrder'#2#4#4'Left'#2#6#6'Height'#2#13#3'Top'#2'X'#5'Width'#2'x'#0#0#9'TCh'
+  +'eckBox'#15'L2Optimizations'#7'Caption'#6#21'Level 2 Optimizations'#8'TabOrd'
+  +'er'#2#5#4'Left'#2#6#6'Height'#2#13#3'Top'#2'n'#5'Width'#2'x'#0#0#0#11'TRadi'
+  +'oGroup'#15'TargetProcessor'#8'AutoFill'#9#7'Caption'#6#16'Target Processor'
+  +#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29
+  +'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildResize'#27'ChildSizin'
+  +'g.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHori'
+  +'zontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleCh'
+  +'ilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSi'
+  ,'zing.ControlsPerLine'#2#1#13'Items.Strings'#1#6#9'i386/i486'#6#19'Pentium/P'
+  +'entium MMX'#6#22'Pentium Pro/Pentium II'#0#8'TabOrder'#2#1#4'Left'#2#4#6'He'
+  +'ight'#2'P'#3'Top'#2#2#5'Width'#3#190#0#0#0#11'TCheckGroup'#13'RuntimeChecks'
+  +#8'AutoFill'#9#7'Caption'#6#15'Run-time Checks'#28'ChildSizing.LeftRightSpac'
+  +'ing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizon'
+  +'tal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'cr'
+  +'sHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChild'
+  +'s'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layou'
+  +'t'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#8
+  +'TabOrder'#2#2#4'Left'#2#4#6'Height'#2'`'#3'Top'#2'R'#5'Width'#3#190#0#0#9'T'
+  +'CheckBox'#13'RangeChecking'#7'Caption'#6#24'Range Checking          '#8'Tab'
+  +'Order'#2#0#4'Left'#2#6#6'Height'#2#17#3'Top'#2#6#5'Width'#3#174#0#0#0#9'TCh'
+  +'eckBox'#13'StackChecking'#7'Caption'#6#24'Stack Checking          '#8'TabOr'
+  +'der'#2#1#4'Left'#2#6#6'Height'#2#17#3'Top'#2#23#5'Width'#3#174#0#0#0#9'TChe'
+  +'ckBox'#10'IOChecking'#7'Caption'#6#22'I/O Checking          '#8'TabOrder'#2
+  +#2#4'Left'#2#6#6'Height'#2#17#3'Top'#2'('#5'Width'#3#174#0#0#0#9'TCheckBox'
+  +#16'OverflowChecking'#7'Caption'#6'#Integer Overflow Checking          '#8'T'
+  +'abOrder'#2#3#4'Left'#2#6#6'Height'#2#15#3'Top'#2'9'#5'Width'#3#174#0#0#0#0#0
+  +#9'TTabSheet'#12'VerboseSheet'#7'Caption'#6#7'Verbose'#12'ClientHeight'#3#182
+  +#0#11'ClientWidth'#3#128#1#6'Height'#3#182#0#5'Width'#3#128#1#0#11'TCheckGro'
+  +'up'#7'Verbose'#8'AutoFill'#9#7'Caption'#6#7'Verbose'#28'ChildSizing.LeftRig'
+  +'htSpacing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeH'
+  +'orizontal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7
+  +#24'crsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScale'
+  +'Childs'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.'
+  +'Layout'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'
+  +#2#1#8'TabOrder'#2#0#4'Left'#2#4#6'Height'#3#176#0#3'Top'#2#2#5'Width'#3'v'#1
+  +#0#9'TCheckBox'#8'Warnings'#7'Caption'#6#8'Warnings'#8'TabOrder'#2#0#4'Left'
+  +#2#6#6'Height'#2#21#3'Top'#2#6#5'Width'#3'f'#1#0#0#9'TCheckBox'#5'Notes'#7'C'
+  +'aption'#6#5'Notes'#8'TabOrder'#2#1#4'Left'#2#6#6'Height'#2#21#3'Top'#2#27#5
+  +'Width'#3'f'#1#0#0#9'TCheckBox'#5'Hints'#7'Caption'#6#5'Hints'#8'TabOrder'#2
+  +#2#4'Left'#2#6#6'Height'#2#21#3'Top'#2'0'#5'Width'#3'f'#1#0#0#9'TCheckBox'#6
+  +'UTInfo'#7'Caption'#6#16'Used, Tried Info'#8'TabOrder'#2#3#4'Left'#2#6#6'Hei'
+  +'ght'#2#21#3'Top'#2'E'#5'Width'#3'f'#1#0#0#9'TCheckBox'#11'GeneralInfo'#7'Ca'
+  +'ption'#6#12'General Info'#8'TabOrder'#2#4#4'Left'#2#6#6'Height'#2#21#3'Top'
+  +#2'Z'#5'Width'#3'f'#1#0#0#9'TCheckBox'#3'All'#7'Caption'#6#3'All'#8'TabOrder'
+  +#2#5#4'Left'#2#6#6'Height'#2#21#3'Top'#2'o'#5'Width'#3'f'#1#0#0#9'TCheckBox'
+  +#11'ShowAllProc'#7'Caption'#6#28'Show all Procedures if error'#8'TabOrder'#2
+  +#6#4'Left'#2#6#6'Height'#2#20#3'Top'#3#132#0#5'Width'#3'f'#1#0#0#0#0#9'TTabS'
+  +'heet'#12'BrowserSheet'#7'Caption'#6#7'Browser'#12'ClientHeight'#3#182#0#11
+  +'ClientWidth'#3#128#1#6'Height'#3#182#0#5'Width'#3#128#1#0#11'TRadioGroup'#7
+  +'Browser'#8'AutoFill'#9#7'Caption'#6#7'Browser'#28'ChildSizing.LeftRightSpac'
+  +'ing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizon'
+  +'tal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'cr'
+  +'sHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChild'
+  +'s'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layou'
+  +'t'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
+  +#13'Items.Strings'#1#6#10'No Browser'#6#13'Local Browser'#6#24'Local and Glo'
+  +'bal Browser'#0#8'TabOrder'#2#0#4'Left'#2#4#6'Height'#3#176#0#3'Top'#2#2#5'W'
+  +'idth'#3'v'#1#0#0#0#9'TTabSheet'#14'AssemblerSheet'#7'Caption'#6#9'Assembler'
+  +#12'ClientHeight'#3#182#0#11'ClientWidth'#3#128#1#6'Height'#3#182#0#5'Width'
+  +#3#128#1#0#11'TRadioGroup'#15'AssemblerOutput'#8'AutoFill'#9#7'Caption'#6#16
+  +'Assembler Output'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBo'
+  +'ttomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildR'
+  +'esize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'Ch'
+  +'ildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVerti'
+  +'cal'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTop'
+  +'ToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'Items.Strings'#1#6#7'Defau'
+  +'lt'#6#13'GNU Assembler'#6#9'Nasm coff'#6#8'Nasm elf'#6#8'Nasm obj'#6#23'Mic'
+  +'rosoft Assembler obj'#6#19'Turbo Assembler obj'#6#13'Internal coff'#6#15'In'
+  +'ternal pecoff'#0#8'TabOrder'#2#0#4'Left'#3#204#0#6'Height'#3#176#0#3'Top'#2
+  +#2#5'Width'#3#174#0#0#0#11'TCheckGroup'#13'AssemblerInfo'#8'AutoFill'#9#7'Ca'
+  +'ption'#6#14'Assembler Info'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSi'
+  +'zing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomoge'
+  ,'nousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildRes'
+  +'ize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.S'
+  +'hrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRi'
+  +'ghtThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#8'TabOrder'#2#1#4'L'
+  +'eft'#2#4#6'Height'#2'`'#3'Top'#2'R'#5'Width'#3#190#0#0#9'TCheckBox'#10'List'
+  +'Source'#7'Caption'#6#11'List Source'#8'TabOrder'#2#0#4'Left'#2#6#6'Height'#2
+  +#22#3'Top'#2#6#5'Width'#3#174#0#0#0#9'TCheckBox'#13'ListRegisters'#7'Caption'
+  +#6#24'List Register Allocation'#8'TabOrder'#2#1#4'Left'#2#6#6'Height'#2#22#3
+  +'Top'#2#28#5'Width'#3#174#0#0#0#9'TCheckBox'#8'ListTemp'#7'Caption'#6#20'Lis'
+  +'t Temp Allocation'#8'TabOrder'#2#2#4'Left'#2#6#6'Height'#2#22#3'Top'#2'2'#5
+  +'Width'#3#174#0#0#0#0#11'TRadioGroup'#15'AssemblerReader'#8'AutoFill'#9#7'Ca'
+  +'ption'#6#16'Assembler Reader'#28'ChildSizing.LeftRightSpacing'#2#6#28'Child'
+  +'Sizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomo'
+  +'genousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildR'
+  +'esize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing'
+  +'.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftTo'
+  +'RightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'Items.Strings'
+  +#1#6#6'Direct'#6#22'AT & T Style Assembler'#6#21'Intel Style Assembler'#0#8
+  +'TabOrder'#2#2#4'Left'#2#4#6'Height'#2'P'#3'Top'#2#2#5'Width'#3#190#0#0#0#0#0
+  +#0
+]);

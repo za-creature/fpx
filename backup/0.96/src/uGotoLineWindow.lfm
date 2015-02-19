@@ -1,0 +1,55 @@
+object GotoLineWindow: TGotoLineWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Goto Line'
+  ClientHeight = 100
+  ClientWidth = 150
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 149
+  VertScrollBar.Page = 99
+  Left = 588
+  Height = 100
+  Top = 358
+  Width = 150
+  object GotoLineLabel: TLabel
+    Caption = 'Enter the Line Number:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 8
+    Width = 111
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkButtonClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 64
+    Width = 64
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 80
+    Height = 25
+    Top = 64
+    Width = 66
+  end
+  object Line: TSpinEdit
+    ClimbRate = 1
+    MaxValue = 100
+    MinValue = 1
+    TabOrder = 2
+    Value = 1
+    Left = 8
+    Height = 20
+    Top = 32
+    Width = 138
+  end
+end

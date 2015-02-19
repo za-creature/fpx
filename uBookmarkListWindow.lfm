@@ -1,0 +1,49 @@
+object BookmarkListWindow: TBookmarkListWindow
+  ActiveControl = BookmarkList
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Bookmarks'
+  ClientHeight = 150
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  OnActivate = FormActivate
+  OnDeactivate = FormDeactivate
+  PixelsPerInch = 96
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 149
+  Left = 272
+  Height = 150
+  Top = 100
+  Width = 400
+  object BookmarkList: TListView
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'Name'
+        Width = 190
+      end    
+      item
+        Caption = 'Filename'
+        Width = 150
+      end    
+      item
+        Caption = 'Line'
+        Width = 40
+      end>
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    OnDblClick = BookmarkListDblClick
+    Height = 150
+    Width = 400
+  end
+  object IdleTimer: TIdleTimer
+    Enabled = False
+    Interval = 500
+    OnTimer = IdleTimerTimer
+    left = 112
+    top = 8
+  end
+end

@@ -1,0 +1,186 @@
+object DirectoriesWindow: TDirectoriesWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Directories'
+  ClientHeight = 270
+  ClientWidth = 400
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 269
+  Left = 385
+  Height = 270
+  Top = 528
+  Width = 400
+  object PTBDLabel: TLabel
+    Caption = 'Path to "bin" Directory:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 8
+    Width = 131
+  end
+  object UODLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Unit Output Directory:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 40
+    Width = 124
+  end
+  object EODLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Exe Output Directory:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 72
+    Width = 122
+  end
+  object ODLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Object Directories:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 104
+    Width = 107
+  end
+  object LDLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Library Directories:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 136
+    Width = 109
+  end
+  object IDLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Include Directories:'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 168
+    Width = 111
+  end
+  object UDLabel: TLabel
+    Caption = 'Unit Directories'
+    Color = clNone
+    Font.Height = -13
+    Left = 8
+    Height = 16
+    Top = 200
+    Width = 87
+  end
+  object PathToCompiler: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    TabOrder = 0
+    TabOrder = 0
+    Left = 184
+    Height = 23
+    Top = 8
+    Width = 192
+  end
+  object UnitOutputDirectory: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 1
+    Left = 184
+    Height = 23
+    Top = 40
+    Width = 192
+  end
+  object ExeOutputDirectory: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 2
+    BorderSpacing.OnChange = nil
+    TabOrder = 2
+    Left = 184
+    Height = 23
+    Top = 72
+    Width = 192
+  end
+  object ObjectDirectories: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 3
+    BorderSpacing.OnChange = nil
+    TabOrder = 3
+    Left = 184
+    Height = 23
+    Top = 104
+    Width = 192
+  end
+  object LibraryDirectories: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 4
+    BorderSpacing.OnChange = nil
+    TabOrder = 4
+    Left = 184
+    Height = 23
+    Top = 136
+    Width = 192
+  end
+  object IncludeDirectories: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 5
+    BorderSpacing.OnChange = nil
+    TabOrder = 5
+    Left = 184
+    Height = 23
+    Top = 168
+    Width = 192
+  end
+  object UnitDirectories: TDirectoryEdit
+    ButtonWidth = 23
+    NumGlyphs = 1
+    BorderSpacing.OnChange = nil
+    TabOrder = 6
+    BorderSpacing.OnChange = nil
+    TabOrder = 6
+    Left = 184
+    Height = 23
+    Top = 200
+    Width = 192
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 7
+    Left = 115
+    Height = 25
+    Top = 232
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 8
+    Left = 210
+    Height = 25
+    Top = 232
+    Width = 75
+  end
+end

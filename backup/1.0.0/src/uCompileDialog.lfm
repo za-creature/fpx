@@ -1,0 +1,118 @@
+object CompileDialog: TCompileDialog
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Compile Dialog'
+  ClientHeight = 140
+  ClientWidth = 300
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 299
+  VertScrollBar.Page = 139
+  Left = 285
+  Height = 140
+  Top = 145
+  Width = 300
+  object MainFileLabel: TLabel
+    Caption = 'Main file: '
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 8
+    Width = 47
+  end
+  object StatusLabel: TLabel
+    Caption = 'Status:'
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 24
+    Width = 36
+  end
+  object TargetLabel: TLabel
+    Caption = 'Target: '
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 40
+    Width = 40
+  end
+  object LineNumberLabel: TLabel
+    Caption = 'Line number: N/A'
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 56
+    Width = 84
+  end
+  object ErrorsLabel: TLabel
+    Caption = 'Errors:'
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 88
+    Width = 34
+  end
+  object ActiveCaption: TLabel
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'ActiveCaption'
+    Color = clBlue
+    Font.Color = clWhite
+    Font.Height = 20
+    Font.Style = [fsBold]
+    Layout = tlBottom
+    ParentColor = False
+    Transparent = False
+    Left = 6
+    Height = 20
+    Top = 112
+    Width = 288
+  end
+  object TotalLinesLabel: TLabel
+    Caption = 'Total lines: N/A'
+    Color = clNone
+    ParentColor = False
+    Left = 144
+    Height = 14
+    Top = 56
+    Width = 74
+  end
+  object WarningsLabel: TLabel
+    Caption = 'Warnings:'
+    Color = clNone
+    ParentColor = False
+    Left = 6
+    Height = 14
+    Top = 72
+    Width = 50
+  end
+  object NotesLabel: TLabel
+    Caption = 'Notes:'
+    Color = clNone
+    ParentColor = False
+    Left = 144
+    Height = 14
+    Top = 72
+    Width = 33
+  end
+  object HintsLabel: TLabel
+    Caption = 'Hints:'
+    Color = clNone
+    ParentColor = False
+    Left = 144
+    Height = 14
+    Top = 88
+    Width = 29
+  end
+end

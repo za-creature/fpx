@@ -1,0 +1,57 @@
+object RuntimeParametersDialog: TRuntimeParametersDialog
+  ActiveControl = Parameters
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Parameters'
+  ClientHeight = 90
+  ClientWidth = 200
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 199
+  VertScrollBar.Page = 89
+  Left = 580
+  Height = 90
+  Top = 360
+  Width = 200
+  object Parameters: TLabeledEdit
+    EditLabel.Caption = 'Enter the runtime parameters:'
+    EditLabel.Color = clNone
+    EditLabel.Height = 14
+    EditLabel.Left = 8
+    EditLabel.ParentColor = False
+    EditLabel.Top = 7
+    EditLabel.Width = 147
+    EditLabel.Left = 8
+    EditLabel.Height = 14
+    EditLabel.Top = 7
+    EditLabel.Width = 147
+    ParentColor = False
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 24
+    Width = 184
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 1
+    Left = 16
+    Height = 25
+    Top = 56
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 2
+    Left = 104
+    Height = 25
+    Top = 56
+    Width = 75
+  end
+end

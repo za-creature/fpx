@@ -1,0 +1,58 @@
+object InternalEvaluatorDialog: TInternalEvaluatorDialog
+  ActiveControl = CancelButton
+  BorderIcons = [biSystemMenu]
+  Caption = 'Evaluating...'
+  ClientHeight = 100
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 99
+  Left = 357
+  Height = 100
+  Top = 209
+  Width = 400
+  object StatusLabel: TLabel
+    Caption = 'Status:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 36
+  end
+  object EntireProgressLabel: TLabel
+    Caption = 'Entire progress:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 32
+    Width = 78
+  end
+  object CancelButton: TButton
+    Anchors = [akTop]
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    Default = True
+    OnClick = CancelButtonClick
+    TabOrder = 0
+    Left = 162
+    Height = 25
+    Top = 72
+    Width = 75
+  end
+  object ProgressBar: TProgressBar
+    Anchors = [akTop, akLeft, akRight]
+    Max = 100
+    Left = 8
+    Height = 20
+    Top = 48
+    Width = 384
+  end
+end

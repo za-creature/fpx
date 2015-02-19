@@ -1,0 +1,49 @@
+object CompilerModeWindow: TCompilerModeWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Mode'
+  ClientHeight = 143
+  ClientWidth = 176
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 175
+  VertScrollBar.Page = 142
+  Left = 679
+  Height = 143
+  Top = 433
+  Width = 176
+  object CompilerMode: TRadioGroup
+    Caption = 'Compiler Mode:'
+    Items.Strings = (
+      'Normal'
+      'Debug'
+      'Release'
+    )
+    ParentColor = True
+    Left = 40
+    Height = 96
+    Top = 8
+    Width = 104
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 1
+    Left = 8
+    Height = 25
+    Top = 112
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 2
+    Left = 96
+    Height = 25
+    Top = 112
+    Width = 75
+  end
+end

@@ -1,0 +1,69 @@
+object WatchListWindow: TWatchListWindow
+  ActiveControl = AddWatchButton
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Watches'
+  ClientHeight = 150
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  PixelsPerInch = 96
+  Position = poDefault
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 149
+  Height = 150
+  Top = 450
+  Width = 400
+  object AddWatchButton: TButton
+    Anchors = [akLeft, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Add'
+    OnClick = AddWatchButtonClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 122
+    Width = 75
+  end
+  object DeleteWatchButton: TButton
+    Anchors = [akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Delete'
+    OnClick = DeleteWatchButtonClick
+    TabOrder = 1
+    Left = 162
+    Height = 25
+    Top = 122
+    Width = 75
+  end
+  object ClearWatchListButton: TButton
+    Anchors = [akRight, akBottom]
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Clear'
+    OnClick = ClearWatchListButtonClick
+    TabOrder = 2
+    Left = 317
+    Height = 25
+    Top = 122
+    Width = 75
+  end
+  object WatchList: TListView
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    Columns = <    
+      item
+        Caption = 'Name'
+        Width = 100
+      end    
+      item
+        Caption = 'Value'
+        Width = 295
+      end>
+    MultiSelect = True
+    RowSelect = True
+    SortType = stText
+    TabOrder = 3
+    ViewStyle = vsReport
+    Height = 114
+    Width = 400
+  end
+end

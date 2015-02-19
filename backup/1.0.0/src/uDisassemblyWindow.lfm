@@ -1,0 +1,41 @@
+object DisassemblyWindow: TDisassemblyWindow
+  ActiveControl = AsmSource
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSizeToolWin
+  Caption = 'Disassembly Window'
+  ClientHeight = 150
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  OnClose = FormClose
+  PixelsPerInch = 96
+  Position = poDefault
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 149
+  Height = 150
+  Top = 80
+  Width = 400
+  object AsmSource: TListView
+    Align = alClient
+    Columns = <    
+      item
+        Caption = 'Address'
+        Width = 60
+      end    
+      item
+        Caption = 'Instruction'
+        Width = 70
+      end    
+      item
+        Caption = 'Parameters'
+        Width = 250
+      end>
+    MultiSelect = True
+    ReadOnly = True
+    RowSelect = True
+    TabOrder = 0
+    ViewStyle = vsReport
+    Height = 150
+    Width = 400
+  end
+end

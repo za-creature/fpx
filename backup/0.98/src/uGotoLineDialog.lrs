@@ -1,0 +1,19 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TGotoLineDialog','FORMDATA',[
+  'TPF0'#15'TGotoLineDialog'#14'GotoLineDialog'#13'ActiveControl'#7#8'OkButton'
+  +#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsDialog'#7'Capti'
+  +'on'#6#9'Goto Line'#12'ClientHeight'#2'd'#11'ClientWidth'#3#150#0#9'FormStyl'
+  +'e'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Position'#7#16'poMainFormCent'
+  +'er'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#149#0#18'VertSc'
+  +'rollBar.Page'#2'c'#4'Left'#3'L'#2#6'Height'#2'd'#3'Top'#3'f'#1#5'Width'#3
+  +#150#0#0#6'TLabel'#13'GotoLineLabel'#7'Caption'#6#22'Enter the Line Number:'
+  +#5'Color'#7#6'clNone'#11'ParentColor'#8#4'Left'#2#8#6'Height'#2#14#3'Top'#2#8
+  +#5'Width'#2'p'#0#0#7'TButton'#8'OkButton'#25'BorderSpacing.InnerBorder'#2#4#7
+  +'Caption'#6#2'Ok'#7'OnClick'#7#13'OkButtonClick'#8'TabOrder'#2#0#4'Left'#2#8
+  +#6'Height'#2#25#3'Top'#2'@'#5'Width'#2'@'#0#0#7'TButton'#12'CancelButton'#25
+  +'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#6'Cancel'#7'OnClick'#7#11'Cance'
+  +'lClick'#8'TabOrder'#2#1#4'Left'#2'P'#6'Height'#2#25#3'Top'#2'@'#5'Width'#2
+  +'B'#0#0#9'TSpinEdit'#4'Line'#8'MinValue'#2#1#8'TabOrder'#2#2#5'Value'#2#1#4
+  +'Left'#2#8#6'Height'#2#20#3'Top'#2' '#5'Width'#3#138#0#0#0#0
+]);

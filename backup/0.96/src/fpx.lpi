@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="5"/>
+    <General>
+      <MainUnit Value="0"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=".exe"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="26">
+      <Unit0>
+        <Filename Value="fpx.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="fpx"/>
+        <CursorPos X="73" Y="31"/>
+        <TopLine Value="14"/>
+        <EditorIndex Value="1"/>
+        <UsageCount Value="63"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uMain.pp"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="umain.lrs"/>
+        <UnitName Value="uMain"/>
+        <CursorPos X="39" Y="4"/>
+        <TopLine Value="1"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="32"/>
+        <Bookmarks Count="3">
+          <Item0 X="8" Y="332" ID="1"/>
+          <Item1 X="1" Y="340" ID="2"/>
+          <Item2 X="4" Y="1537" ID="3"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="uCompilerOptionsWindow.pp"/>
+        <ComponentName Value="CompilerOptionsWindow"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="ucompileroptionswindow.lrs"/>
+        <UnitName Value="uCompilerOptionsWindow"/>
+        <CursorPos X="1" Y="121"/>
+        <TopLine Value="87"/>
+        <UsageCount Value="15"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="uruntimeparameters.pas"/>
+        <ComponentName Value="RuntimeParameters"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uRuntimeParameters"/>
+        <CursorPos X="10" Y="22"/>
+        <TopLine Value="5"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="uMessageBoxController.pp"/>
+        <ComponentName Value="MessageBoxController"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="umessageboxcontroller.lrs"/>
+        <UnitName Value="uMessageBoxController"/>
+        <CursorPos X="1" Y="100"/>
+        <TopLine Value="68"/>
+        <UsageCount Value="17"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\Lazarus\components\synedit\synedittextbuffer.pp"/>
+        <UnitName Value="SynEditTextBuffer"/>
+        <CursorPos X="29" Y="1241"/>
+        <TopLine Value="1224"/>
+        <UsageCount Value="7"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\Lazarus\lcl\include\customform.inc"/>
+        <CursorPos X="39" Y="1197"/>
+        <TopLine Value="1175"/>
+        <UsageCount Value="7"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="uAboutWindow.pp"/>
+        <ComponentName Value="AboutWindow"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uaboutwindow.lrs"/>
+        <UnitName Value="uAboutWindow"/>
+        <CursorPos X="18" Y="69"/>
+        <TopLine Value="48"/>
+        <UsageCount Value="11"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uEditorOptionsController.pp"/>
+        <UnitName Value="uEditorOptionsController"/>
+        <CursorPos X="10" Y="359"/>
+        <TopLine Value="337"/>
+        <UsageCount Value="11"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="uprocesslistwindow.pp"/>
+        <ComponentName Value="ProcessListWindow"/>
+        <ResourceFilename Value="uProcessListWindow.lrs"/>
+        <UnitName Value="uProcessListWindow"/>
+        <CursorPos X="11" Y="136"/>
+        <TopLine Value="124"/>
+        <UsageCount Value="46"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uAboutWindow.lfm"/>
+        <CursorPos X="1" Y="831"/>
+        <TopLine Value="789"/>
+        <UsageCount Value="10"/>
+        <SyntaxHighlighter Value="LFM"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="debugger.pas"/>
+        <UnitName Value="debugger"/>
+        <CursorPos X="1" Y="25"/>
+        <TopLine Value="21"/>
+        <UsageCount Value="14"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="uasciitable.pp"/>
+        <ComponentName Value="ASCIITable"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uAsciiTable.lrs"/>
+        <UnitName Value="uAsciiTable"/>
+        <CursorPos X="6" Y="93"/>
+        <TopLine Value="79"/>
+        <UsageCount Value="11"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uEditorStyleWindow.pp"/>
+        <ComponentName Value="EditorStyleWindow"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uEditorStyleWindow.lrs"/>
+        <UnitName Value="uEditorStyleWindow"/>
+        <CursorPos X="58" Y="213"/>
+        <TopLine Value="201"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uDebugger.pp"/>
+        <UnitName Value="uDebugger"/>
+        <CursorPos X="1" Y="17"/>
+        <TopLine Value="5"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="uMemorySizesWindow.pp"/>
+        <ComponentName Value="MemorySizesWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uMemorySizesWindow"/>
+        <CursorPos X="19" Y="64"/>
+        <TopLine Value="51"/>
+        <UsageCount Value="11"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="uPrimaryFileWindow.pp"/>
+        <ComponentName Value="PrimaryFileWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uPrimaryFileWindow"/>
+        <CursorPos X="4" Y="69"/>
+        <TopLine Value="45"/>
+        <UsageCount Value="11"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="uRuntimeParametersWindow.pp"/>
+        <ComponentName Value="RuntimeParametersWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uRuntimeParametersWindow"/>
+        <CursorPos X="5" Y="57"/>
+        <TopLine Value="42"/>
+        <UsageCount Value="11"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="uTargetWindow.pp"/>
+        <ComponentName Value="TargetWindow"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uTargetWindow.lrs"/>
+        <UnitName Value="uTargetWindow"/>
+        <CursorPos X="1" Y="49"/>
+        <TopLine Value="34"/>
+        <UsageCount Value="11"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="uCompilerModeWindow.pp"/>
+        <ComponentName Value="CompilerModeWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uCompilerModeWindow"/>
+        <CursorPos X="24" Y="51"/>
+        <TopLine Value="42"/>
+        <UsageCount Value="11"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="uDirectoriesWindow.pp"/>
+        <ComponentName Value="DirectoriesWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uDirectoriesWindow"/>
+        <CursorPos X="6" Y="67"/>
+        <TopLine Value="55"/>
+        <UsageCount Value="11"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="uEditorOptionsWindow.pp"/>
+        <ComponentName Value="EditorOptionsWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uEditorOptionsWindow"/>
+        <CursorPos X="6" Y="71"/>
+        <TopLine Value="59"/>
+        <UsageCount Value="11"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="uFindWindow.pp"/>
+        <ComponentName Value="FindWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uFindWindow"/>
+        <CursorPos X="5" Y="96"/>
+        <TopLine Value="63"/>
+        <UsageCount Value="11"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="uGotoLineWindow.pp"/>
+        <ComponentName Value="GotoLineWindow"/>
+        <HasResources Value="True"/>
+        <UnitName Value="uGotoLinewindow"/>
+        <CursorPos X="6" Y="70"/>
+        <TopLine Value="45"/>
+        <UsageCount Value="11"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="uLinkerWindow.pp"/>
+        <ComponentName Value="LinkerWindow"/>
+        <HasResources Value="True"/>
+        <ResourceFilename Value="uLinkerWindow.lrs"/>
+        <UnitName Value="uLinkerWindow"/>
+        <CursorPos X="11" Y="6"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="11"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="uCompilerOptionsWindow.pp"/>
+        <ComponentName Value="CompilerOptionsWindow"/>
+        <IsPartOfProject Value="True"/>
+        <ResourceFilename Value="uCompilerOptionsWindow.lrs"/>
+        <UnitName Value="uCompilerOptionsWindow"/>
+        <CursorPos X="20" Y="74"/>
+        <TopLine Value="41"/>
+        <UsageCount Value="22"/>
+      </Unit25>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="uMain.pp"/>
+        <Caret Line="1256" Column="56" TopLine="1241"/>
+      </Position1>
+      <Position2>
+        <Filename Value="uMain.pp"/>
+        <Caret Line="1266" Column="45" TopLine="1266"/>
+      </Position2>
+      <Position3>
+        <Filename Value="uMain.pp"/>
+        <Caret Line="1778" Column="5" TopLine="1745"/>
+      </Position3>
+      <Position4>
+        <Filename Value="fpx.lpr"/>
+        <Caret Line="25" Column="22" TopLine="21"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="5"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <SrcPath Value="$(LazarusDir)\lcl\;$(LazarusDir)\lcl\interfaces\$(LCLWidgetType)\"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="2">
+      <Item1>
+        <Name Value="ECodetoolError"/>
+      </Item1>
+      <Item2>
+        <Name Value="EFOpenError"/>
+      </Item2>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

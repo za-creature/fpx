@@ -1,0 +1,56 @@
+object AddWatchDialog: TAddWatchDialog
+  ActiveControl = Watch
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Add Watch'
+  ClientHeight = 96
+  ClientWidth = 178
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 177
+  VertScrollBar.Page = 95
+  Left = 315
+  Height = 96
+  Top = 286
+  Width = 178
+  object ExpLabel: TLabel
+    Caption = 'Enter an expression to watch for:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 163
+  end
+  object Watch: TEdit
+    TabOrder = 0
+    Left = 8
+    Height = 23
+    Top = 32
+    Width = 163
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    Default = True
+    OnClick = Button1Click
+    TabOrder = 1
+    Left = 8
+    Height = 25
+    Top = 64
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = Button2Click
+    TabOrder = 2
+    Left = 96
+    Height = 25
+    Top = 64
+    Width = 75
+  end
+end

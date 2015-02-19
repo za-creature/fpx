@@ -1,0 +1,489 @@
+object CompilerOptionsDialog: TCompilerOptionsDialog
+  ActiveControl = OkButton
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Compiler Switches'
+  ClientHeight = 250
+  ClientWidth = 406
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 405
+  VertScrollBar.Page = 249
+  Left = 424
+  Height = 250
+  Top = 382
+  Width = 406
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 0
+    Left = 115
+    Height = 25
+    Top = 216
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 200
+    Height = 25
+    Top = 216
+    Width = 75
+  end
+  object PageController: TPageControl
+    ActivePage = SyntaxSheet
+    TabIndex = 0
+    TabOrder = 2
+    Left = 8
+    Height = 208
+    Top = 8
+    Width = 392
+    object SyntaxSheet: TTabSheet
+      Caption = 'Syntax'
+      ClientHeight = 182
+      ClientWidth = 384
+      Height = 182
+      Width = 384
+      object SyntaxOptions: TCheckGroup
+        AutoFill = True
+        Caption = 'Syntax Options'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 2
+        Columns = 2
+        TabOrder = 0
+        Left = 4
+        Height = 176
+        Top = 2
+        Width = 374
+        object ObjectPascal: TCheckBox
+          Caption = 'Object Pascal Support'
+          TabOrder = 0
+          Left = 6
+          Height = 30
+          Top = 6
+          Width = 185
+        end
+        object GlobalCMacros: TCheckBox
+          Caption = 'Global C Macros'
+          TabOrder = 1
+          Left = 191
+          Height = 30
+          Top = 6
+          Width = 173
+        end
+        object TPCompatible: TCheckBox
+          Caption = 'TP/BP 7.0 Compatibility'
+          TabOrder = 2
+          Left = 6
+          Height = 30
+          Top = 36
+          Width = 185
+        end
+        object COperators: TCheckBox
+          Caption = 'C-Like Operators'
+          TabOrder = 3
+          Left = 191
+          Height = 30
+          Top = 36
+          Width = 173
+        end
+        object DelphiCompatible: TCheckBox
+          Caption = 'Delphi Compatibility'
+          TabOrder = 4
+          Left = 6
+          Height = 30
+          Top = 66
+          Width = 185
+        end
+        object StopAfterFirstError: TCheckBox
+          Caption = 'Stop After First Error'
+          TabOrder = 5
+          Left = 191
+          Height = 30
+          Top = 66
+          Width = 173
+        end
+        object StaticInObjects: TCheckBox
+          Caption = 'Allow Static In Objects'
+          TabOrder = 6
+          Left = 6
+          Height = 30
+          Top = 96
+          Width = 185
+        end
+        object AllowLabel: TCheckBox
+          Caption = 'Allow Label and Goto'
+          TabOrder = 7
+          Left = 191
+          Height = 30
+          Top = 96
+          Width = 173
+        end
+        object CInline: TCheckBox
+          Caption = 'C++ Styled Inline'
+          TabOrder = 8
+          Left = 6
+          Height = 26
+          Top = 126
+          Width = 185
+        end
+      end
+    end
+    object CodeGenerationSheet: TTabSheet
+      Caption = 'Code  Generation'
+      ClientHeight = 182
+      ClientWidth = 384
+      Height = 182
+      Width = 384
+      object Optimizations: TGroupBox
+        Caption = 'Optimizations'
+        ClientHeight = 158
+        ClientWidth = 170
+        TabOrder = 0
+        Left = 204
+        Height = 176
+        Top = 2
+        Width = 174
+        object GenerateFasterCode: TRadioButton
+          Caption = 'Generate Faster Code'
+          Checked = True
+          State = cbChecked
+          TabOrder = 0
+          Left = 6
+          Height = 13
+          Top = 10
+          Width = 124
+        end
+        object GenerateSmallerCode: TRadioButton
+          Caption = 'Generate Smaller Code'
+          TabOrder = 1
+          Left = 6
+          Height = 13
+          Top = 30
+          Width = 129
+        end
+        object RegisterVariables: TCheckBox
+          Caption = 'Use Register Variables'
+          TabOrder = 2
+          Left = 6
+          Height = 13
+          Top = 50
+          Width = 127
+        end
+        object UncertainOptimizations: TCheckBox
+          Caption = 'Uncertain Optimizations'
+          TabOrder = 3
+          Left = 6
+          Height = 13
+          Top = 70
+          Width = 131
+        end
+        object L1Optimizations: TCheckBox
+          Caption = 'Level 1 Optimizations'
+          TabOrder = 4
+          Left = 6
+          Height = 13
+          Top = 88
+          Width = 120
+        end
+        object L2Optimizations: TCheckBox
+          Caption = 'Level 2 Optimizations'
+          TabOrder = 5
+          Left = 6
+          Height = 13
+          Top = 110
+          Width = 120
+        end
+      end
+      object TargetProcessor: TRadioGroup
+        AutoFill = True
+        Caption = 'Target Processor'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        Items.Strings = (
+          'i386/i486'
+          'Pentium/Pentium MMX'
+          'Pentium Pro/Pentium II'
+        )
+        TabOrder = 1
+        Left = 4
+        Height = 80
+        Top = 2
+        Width = 190
+      end
+      object RuntimeChecks: TCheckGroup
+        AutoFill = True
+        Caption = 'Run-time Checks'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        TabOrder = 2
+        Left = 4
+        Height = 96
+        Top = 82
+        Width = 190
+        object RangeChecking: TCheckBox
+          Caption = 'Range Checking          '
+          TabOrder = 0
+          Left = 6
+          Height = 17
+          Top = 6
+          Width = 174
+        end
+        object StackChecking: TCheckBox
+          Caption = 'Stack Checking          '
+          TabOrder = 1
+          Left = 6
+          Height = 17
+          Top = 23
+          Width = 174
+        end
+        object IOChecking: TCheckBox
+          Caption = 'I/O Checking          '
+          TabOrder = 2
+          Left = 6
+          Height = 17
+          Top = 40
+          Width = 174
+        end
+        object OverflowChecking: TCheckBox
+          Caption = 'Integer Overflow Checking          '
+          TabOrder = 3
+          Left = 6
+          Height = 15
+          Top = 57
+          Width = 174
+        end
+      end
+    end
+    object VerboseSheet: TTabSheet
+      Caption = 'Verbose'
+      ClientHeight = 182
+      ClientWidth = 384
+      Height = 182
+      Width = 384
+      object Verbose: TCheckGroup
+        AutoFill = True
+        Caption = 'Verbose'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        TabOrder = 0
+        Left = 4
+        Height = 176
+        Top = 2
+        Width = 374
+        object Warnings: TCheckBox
+          Caption = 'Warnings'
+          TabOrder = 0
+          Left = 6
+          Height = 21
+          Top = 6
+          Width = 358
+        end
+        object Notes: TCheckBox
+          Caption = 'Notes'
+          TabOrder = 1
+          Left = 6
+          Height = 21
+          Top = 27
+          Width = 358
+        end
+        object Hints: TCheckBox
+          Caption = 'Hints'
+          TabOrder = 2
+          Left = 6
+          Height = 21
+          Top = 48
+          Width = 358
+        end
+        object UTInfo: TCheckBox
+          Caption = 'Used, Tried Info'
+          TabOrder = 3
+          Left = 6
+          Height = 21
+          Top = 69
+          Width = 358
+        end
+        object GeneralInfo: TCheckBox
+          Caption = 'General Info'
+          TabOrder = 4
+          Left = 6
+          Height = 21
+          Top = 90
+          Width = 358
+        end
+        object All: TCheckBox
+          Caption = 'All'
+          TabOrder = 5
+          Left = 6
+          Height = 21
+          Top = 111
+          Width = 358
+        end
+        object ShowAllProc: TCheckBox
+          Caption = 'Show all Procedures if error'
+          TabOrder = 6
+          Left = 6
+          Height = 20
+          Top = 132
+          Width = 358
+        end
+      end
+    end
+    object BrowserSheet: TTabSheet
+      Caption = 'Browser'
+      ClientHeight = 182
+      ClientWidth = 384
+      Height = 182
+      Width = 384
+      object Browser: TRadioGroup
+        AutoFill = True
+        Caption = 'Browser'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        Items.Strings = (
+          'No Browser'
+          'Local Browser'
+          'Local and Global Browser'
+        )
+        TabOrder = 0
+        Left = 4
+        Height = 176
+        Top = 2
+        Width = 374
+      end
+    end
+    object AssemblerSheet: TTabSheet
+      Caption = 'Assembler'
+      ClientHeight = 182
+      ClientWidth = 384
+      Height = 182
+      Width = 384
+      object AssemblerOutput: TRadioGroup
+        AutoFill = True
+        Caption = 'Assembler Output'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        Items.Strings = (
+          'Default'
+          'GNU Assembler'
+          'Nasm coff'
+          'Nasm elf'
+          'Nasm obj'
+          'Microsoft Assembler obj'
+          'Turbo Assembler obj'
+          'Internal coff'
+          'Internal pecoff'
+        )
+        TabOrder = 0
+        Left = 204
+        Height = 176
+        Top = 2
+        Width = 174
+      end
+      object AssemblerInfo: TCheckGroup
+        AutoFill = True
+        Caption = 'Assembler Info'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        TabOrder = 1
+        Left = 4
+        Height = 96
+        Top = 82
+        Width = 190
+        object ListSource: TCheckBox
+          Caption = 'List Source'
+          TabOrder = 0
+          Left = 6
+          Height = 22
+          Top = 6
+          Width = 174
+        end
+        object ListRegisters: TCheckBox
+          Caption = 'List Register Allocation'
+          TabOrder = 1
+          Left = 6
+          Height = 22
+          Top = 28
+          Width = 174
+        end
+        object ListTemp: TCheckBox
+          Caption = 'List Temp Allocation'
+          TabOrder = 2
+          Left = 6
+          Height = 22
+          Top = 50
+          Width = 174
+        end
+      end
+      object AssemblerReader: TRadioGroup
+        AutoFill = True
+        Caption = 'Assembler Reader'
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.TopBottomSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 1
+        Items.Strings = (
+          'Direct'
+          'AT & T Style Assembler'
+          'Intel Style Assembler'
+        )
+        TabOrder = 2
+        Left = 4
+        Height = 80
+        Top = 2
+        Width = 190
+      end
+    end
+  end
+end

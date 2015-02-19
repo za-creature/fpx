@@ -1,0 +1,190 @@
+object EditorOptionsWindow: TEditorOptionsWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Editor'
+  ClientHeight = 223
+  ClientWidth = 376
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 375
+  VertScrollBar.Page = 222
+  Left = 343
+  Height = 223
+  Top = 476
+  Width = 376
+  object IndentingOptionsGroup: TGroupBox
+    BorderSpacing.OnChange = nil
+    Caption = 'Indenting Options'
+    ClientHeight = 55
+    ClientWidth = 158
+    ParentColor = True
+    TabOrder = 0
+    Left = 8
+    Height = 73
+    Top = 8
+    Width = 162
+    object AutoIndent: TCheckBox
+      BorderSpacing.OnChange = nil
+      Caption = 'Auto Indent'
+      TabOrder = 0
+      Left = 6
+      Height = 13
+      Width = 77
+    end
+    object TabIndent: TCheckBox
+      BorderSpacing.OnChange = nil
+      Caption = 'Tab Indent'
+      TabOrder = 1
+      Left = 6
+      Height = 13
+      Top = 20
+      Width = 72
+    end
+    object AutoIndentOnPaste: TCheckBox
+      BorderSpacing.OnChange = nil
+      Caption = 'Auto Indent on Paste'
+      TabOrder = 2
+      Left = 6
+      Height = 13
+      Top = 40
+      Width = 122
+    end
+  end
+  object EditingGroup: TCheckGroup
+    BorderSpacing.OnChange = nil
+    Caption = 'Editing'
+    ParentColor = True
+    Left = 176
+    Height = 176
+    Top = 8
+    Width = 192
+    object DragAndDropEditing: TCheckBox
+      BorderSpacing.OnChange = nil
+      Caption = 'Drag and Drop Editing'
+      TabOrder = 0
+      Left = 6
+      Height = 13
+      Width = 124
+    end
+    object DropFiles: TCheckBox
+      Caption = 'Drop Files'
+      TabOrder = 1
+      Left = 6
+      Height = 13
+      Top = 20
+      Width = 66
+    end
+    object EnhanceHomeKey: TCheckBox
+      Caption = 'Enhance Home Key'
+      TabOrder = 2
+      Left = 6
+      Height = 13
+      Top = 40
+      Width = 111
+    end
+    object NoCaret: TCheckBox
+      Caption = 'No Caret'
+      TabOrder = 3
+      Left = 6
+      Height = 13
+      Top = 60
+      Width = 62
+    end
+    object SmartTabs: TCheckBox
+      Caption = 'Smart Tabs'
+      TabOrder = 4
+      Left = 6
+      Height = 13
+      Top = 80
+      Width = 73
+    end
+    object TabsToSpaces: TCheckBox
+      Caption = 'Tabs To Spaces'
+      TabOrder = 5
+      Left = 6
+      Height = 13
+      Top = 100
+      Width = 94
+    end
+    object DoubleClickSelectsLine: TCheckBox
+      Caption = 'Double Click Selects Line'
+      TabOrder = 6
+      Left = 6
+      Height = 13
+      Top = 120
+      Width = 135
+    end
+    object RightMouseMovesCursor: TCheckBox
+      Caption = 'Right Mouse moves Cursor'
+      TabOrder = 7
+      Left = 6
+      Height = 13
+      Top = 140
+      Width = 147
+    end
+  end
+  object MiscelaneousGroup: TCheckGroup
+    BorderSpacing.OnChange = nil
+    Caption = 'Miscelaneous'
+    ParentColor = True
+    Left = 8
+    Height = 96
+    Top = 88
+    Width = 162
+    object ShowLineNumbers: TCheckBox
+      BorderSpacing.OnChange = nil
+      Caption = 'Show Line Numbers'
+      TabOrder = 0
+      Left = 6
+      Height = 13
+      Width = 112
+    end
+    object ScrollByOneLess: TCheckBox
+      Caption = 'Scroll by one less'
+      TabOrder = 1
+      Left = 6
+      Height = 13
+      Top = 20
+      Width = 101
+    end
+    object HighlightBrackets: TCheckBox
+      Caption = 'Highlight Brackets'
+      TabOrder = 2
+      Left = 6
+      Height = 13
+      Top = 40
+      Width = 104
+    end
+    object PreferInsertMode: TCheckBox
+      Caption = 'Prefer Insert Mode'
+      TabOrder = 3
+      Left = 6
+      Height = 13
+      Top = 60
+      Width = 110
+    end
+  end
+  object OkButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 3
+    Left = 192
+    Height = 25
+    Top = 192
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 4
+    Left = 280
+    Height = 25
+    Top = 192
+    Width = 75
+  end
+end

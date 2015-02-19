@@ -1,0 +1,37 @@
+object ShowResultsDialog: TShowResultsDialog
+  ActiveControl = ResultsBox
+  BorderIcons = [biSystemMenu]
+  Caption = 'Evaluator results'
+  ClientHeight = 300
+  ClientWidth = 400
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 399
+  VertScrollBar.Page = 299
+  Left = 285
+  Height = 300
+  Top = 145
+  Width = 400
+  object ResultsBox: TListBox
+    Anchors = [akTop, akLeft, akRight, akBottom]
+    MultiSelect = True
+    TabOrder = 0
+    Height = 264
+    Width = 400
+  end
+  object CloseButton: TButton
+    Anchors = [akBottom]
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Close'
+    Default = True
+    OnClick = CloseButtonClick
+    TabOrder = 1
+    Left = 162
+    Height = 25
+    Top = 272
+    Width = 75
+  end
+end

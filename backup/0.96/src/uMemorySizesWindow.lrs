@@ -1,0 +1,20 @@
+LazarusResources.Add('TMemorySizesWindow','FORMDATA',[
+  'TPF0'#18'TMemorySizesWindow'#17'MemorySizesWindow'#11'BorderIcons'#11#0#11'B'
+  +'orderStyle'#7#8'bsSingle'#7'Caption'#6#12'Memory Sizes'#12'ClientHeight'#3
+  +#138#0#11'ClientWidth'#3#138#0#12'OnCloseQuery'#7#14'FormCloseQuery'#13'Pixe'
+  +'lsPerInch'#2'`'#8'Position'#7#16'poMainFormCenter'#18'HorzScrollBar.Page'#3
+  +#137#0#18'VertScrollBar.Page'#3#137#0#4'Left'#3'N'#2#6'Height'#3#138#0#3'Top'
+  +#3'h'#1#5'Width'#3#138#0#0#6'TLabel'#13'HeapSizeLabel'#7'Caption'#6#10'Heap '
+  +'Size:'#5'Color'#7#6'clNone'#4'Left'#2#8#6'Height'#2#13#3'Top'#2#8#5'Width'#2
+  +'3'#0#0#6'TLabel'#14'StackSizeLabel'#7'Caption'#6#11'Stack Size:'#5'Color'#7
+  +#6'clNone'#4'Left'#2#8#6'Height'#2#13#3'Top'#2'8'#5'Width'#2'4'#0#0#7'TButto'
+  +'n'#8'OkButton'#22'BorderSpacing.OnChange'#13#25'BorderSpacing.InnerBorder'#2
+  +#2#7'Caption'#6#2'Ok'#7'OnClick'#7#7'OkClick'#8'TabOrder'#2#0#4'Left'#2#8#6
+  +'Height'#2#25#3'Top'#2'h'#5'Width'#2'8'#0#0#7'TButton'#12'CancelButton'#22'B'
+  +'orderSpacing.OnChange'#13#25'BorderSpacing.InnerBorder'#2#2#7'Caption'#6#6
+  +'Cancel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2#1#4'Left'#2'H'#6'Height'
+  +#2#25#3'Top'#2'h'#5'Width'#2'8'#0#0#9'TSpinEdit'#8'HeapSize'#9'ClimbRate'#2#1
+  +#8'MaxValue'#2'd'#8'TabOrder'#2#2#4'Left'#2','#6'Height'#2#20#3'Top'#2'P'#5
+  +'Width'#2'T'#0#0#9'TSpinEdit'#9'StackSize'#9'ClimbRate'#2#1#8'MaxValue'#2'd'
+  +#8'TabOrder'#2#3#4'Left'#2','#6'Height'#2#20#3'Top'#2' '#5'Width'#2'T'#0#0#0
+]);

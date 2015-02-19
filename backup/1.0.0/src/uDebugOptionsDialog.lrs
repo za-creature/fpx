@@ -1,0 +1,35 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TDebugOptionsDialog','FORMDATA',[
+  'TPF0'#19'TDebugOptionsDialog'#18'DebugOptionsDialog'#13'ActiveControl'#7#8'O'
+  +'kButton'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsSingle'
+  +#7'Caption'#6#13'Debug Options'#12'ClientHeight'#3#243#0#11'ClientWidth'#3#0
+  +#1#9'FormStyle'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Position'#7#16'po'
+  +'MainFormCenter'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3#255
+  +#0#18'VertScrollBar.Page'#3#242#0#4'Left'#3'"'#1#6'Height'#3#243#0#3'Top'#3
+  +#149#0#5'Width'#3#0#1#0#11'TRadioGroup'#16'DebugInformation'#8'AutoFill'#9#7
+  +'Caption'#6#17'Debug Information'#28'ChildSizing.LeftRightSpacing'#2#6#28'Ch'
+  +'ildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsH'
+  +'omogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChi'
+  +'ldResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSiz'
+  +'ing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLef'
+  +'tToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'Items.Strin'
+  +'gs'#1#6'!Skip debug information generation'#6'!Generate debug symbol inform'
+  +'ation'#6'(Generate also backtrace line information'#6'''Generate valgrind c'
+  +'ompatible debug info'#0#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2'l'#3'Top'#2
+  +#8#5'Width'#3#240#0#0#0#11'TRadioGroup'#17'ProfilingSwitches'#8'AutoFill'#9#7
+  +'Caption'#6#18'Profiling Switches'#28'ChildSizing.LeftRightSpacing'#2#6#28'C'
+  +'hildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crs'
+  +'HomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousCh'
+  +'ildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSi'
+  +'zing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLe'
+  +'ftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'Items.Stri'
+  +'ngs'#1#6#22'No profile information'#6#31'Generate profile code for gprof'#0
+  +#8'TabOrder'#2#1#4'Left'#2#8#6'Height'#2'H'#3'Top'#3#128#0#5'Width'#3#240#0#0
+  +#0#7'TButton'#8'OkButton'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'#6#2'O'
+  +'k'#7'OnClick'#7#13'OkButtonClick'#8'TabOrder'#2#2#4'Left'#2'('#6'Height'#2
+  +#25#3'Top'#3#208#0#5'Width'#2'K'#0#0#7'TButton'#12'CancelButton'#25'BorderSp'
+  +'acing.InnerBorder'#2#4#7'Caption'#6#6'Cancel'#7'OnClick'#7#17'CancelButtonC'
+  +'lick'#8'TabOrder'#2#3#4'Left'#3#136#0#6'Height'#2#25#3'Top'#3#208#0#5'Width'
+  +#2'K'#0#0#0
+]);

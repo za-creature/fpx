@@ -1,0 +1,15 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TDisassemblyWindow','FORMDATA',[
+  'TPF0'#18'TDisassemblyWindow'#17'DisassemblyWindow'#13'ActiveControl'#7#9'Asm'
+  +'Source'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#13'bsSizeTo'
+  +'olWin'#7'Caption'#6#18'Disassembly Window'#12'ClientHeight'#3#150#0#11'Clie'
+  +'ntWidth'#3#144#1#9'FormStyle'#7#11'fsStayOnTop'#7'OnClose'#7#9'FormClose'#13
+  +'PixelsPerInch'#2'`'#8'Position'#7#9'poDefault'#13'ShowInTaskBar'#7#7'stNeve'
+  +'r'#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.Page'#3#149#0#6'Height'#3
+  +#150#0#3'Top'#2'P'#5'Width'#3#144#1#0#9'TListView'#9'AsmSource'#5'Align'#7#8
+  +'alClient'#7'Columns'#14#1#7'Caption'#6#7'Address'#5'Width'#2'<'#0#1#7'Capti'
+  +'on'#6#11'Instruction'#5'Width'#2'F'#0#1#7'Caption'#6#10'Parameters'#5'Width'
+  +#3#250#0#0#0#11'MultiSelect'#9#8'ReadOnly'#9#9'RowSelect'#9#8'TabOrder'#2#0#9
+  +'ViewStyle'#7#8'vsReport'#6'Height'#3#150#0#5'Width'#3#144#1#0#0#0
+]);

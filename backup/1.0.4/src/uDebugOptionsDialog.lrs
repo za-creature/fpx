@@ -1,0 +1,35 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TDebugOptionsDialog','FORMDATA',[
+  'TPF0'#19'TDebugOptionsDialog'#18'DebugOptionsDialog'#13'ActiveControl'#7#16
+  +'DebugInformation'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8
+  +'bsSingle'#7'Caption'#6#13'Debug Options'#12'ClientHeight'#3#243#0#11'Client'
+  +'Width'#3#0#1#9'FormStyle'#7#11'fsStayOnTop'#13'PixelsPerInch'#2'`'#8'Positi'
+  +'on'#7#16'poMainFormCenter'#13'ShowInTaskBar'#7#7'stNever'#18'HorzScrollBar.'
+  +'Page'#3#255#0#18'VertScrollBar.Page'#3#242#0#4'Left'#3'"'#1#6'Height'#3#243
+  +#0#3'Top'#3#149#0#5'Width'#3#0#1#0#11'TRadioGroup'#16'DebugInformation'#8'Au'
+  +'toFill'#9#7'Caption'#6#17'Debug Information'#28'ChildSizing.LeftRightSpacin'
+  +'g'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizonta'
+  +'l'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsH'
+  +'omogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'
+  +#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7
+  +#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'It'
+  +'ems.Strings'#1#6'!Skip debug information generation'#6'!Generate debug symb'
+  +'ol information'#6'(Generate also backtrace line information'#6'''Generate v'
+  +'algrind compatible debug info'#0#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2'l'
+  +#3'Top'#2#8#5'Width'#3#240#0#0#0#11'TRadioGroup'#17'ProfilingSwitches'#8'Aut'
+  +'oFill'#9#7'Caption'#6#18'Profiling Switches'#28'ChildSizing.LeftRightSpacin'
+  +'g'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizonta'
+  +'l'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsH'
+  +'omogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'
+  +#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7
+  +#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#13'It'
+  +'ems.Strings'#1#6#22'No profile information'#6#31'Generate profile code for '
+  +'gprof'#0#8'TabOrder'#2#1#4'Left'#2#8#6'Height'#2'H'#3'Top'#3#128#0#5'Width'
+  +#3#240#0#0#0#7'TButton'#8'OkButton'#25'BorderSpacing.InnerBorder'#2#4#7'Capt'
+  +'ion'#6#2'Ok'#7'Default'#9#7'OnClick'#7#13'OkButtonClick'#8'TabOrder'#2#2#4
+  +'Left'#2'('#6'Height'#2#25#3'Top'#3#208#0#5'Width'#2'K'#0#0#7'TButton'#12'Ca'
+  +'ncelButton'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'#9#7'Caption'#6#6'Ca'
+  +'ncel'#7'OnClick'#7#17'CancelButtonClick'#8'TabOrder'#2#3#4'Left'#3#136#0#6
+  +'Height'#2#25#3'Top'#3#208#0#5'Width'#2'K'#0#0#0
+]);

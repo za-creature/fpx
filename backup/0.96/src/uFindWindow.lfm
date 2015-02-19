@@ -1,0 +1,167 @@
+object FindWindow: TFindWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Find'
+  ClientHeight = 280
+  ClientWidth = 304
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 303
+  VertScrollBar.Page = 279
+  Left = 402
+  Height = 280
+  Top = 440
+  Width = 304
+  object TextToFindLabel: TLabel
+    Caption = 'Text To Find:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 12
+    Width = 64
+  end
+  object ReplaceWithLabel: TLabel
+    BorderSpacing.OnChange = nil
+    Caption = 'Replace With:'
+    Color = clNone
+    Left = 8
+    Height = 13
+    Top = 39
+    Width = 67
+  end
+  object TextInput: TEdit
+    TabOrder = 0
+    Left = 88
+    Height = 23
+    Top = 8
+    Width = 210
+  end
+  object ReplaceInput: TEdit
+    BorderSpacing.OnChange = nil
+    TabOrder = 1
+    Left = 88
+    Height = 23
+    Top = 35
+    Width = 210
+  end
+  object CheckGroup1: TCheckGroup
+    Caption = 'Options'
+    ParentColor = True
+    Left = 8
+    Height = 168
+    Top = 72
+    Width = 160
+    object CaseSensitive: TCheckBox
+      Caption = 'Case Sensitive'
+      TabOrder = 0
+      Left = 6
+      Height = 24
+      Width = 111
+    end
+    object WholeWordsOnly: TCheckBox
+      Caption = 'Whole Words Only'
+      TabOrder = 1
+      Left = 6
+      Height = 24
+      Top = 30
+      Width = 132
+    end
+    object PromptOnReplace: TCheckBox
+      Caption = 'Prompt on Replace'
+      TabOrder = 2
+      Left = 6
+      Height = 24
+      Top = 90
+      Width = 133
+    end
+    object RegularExp: TCheckBox
+      Caption = 'Regular Expressions'
+      TabOrder = 3
+      Left = 6
+      Height = 24
+      Top = 60
+      Width = 141
+    end
+    object MultiLine: TCheckBox
+      Caption = 'Multi Line'
+      Enabled = False
+      TabOrder = 4
+      Left = 6
+      Height = 24
+      Top = 120
+      Width = 82
+    end
+  end
+  object Direction: TRadioGroup
+    Caption = 'Direction'
+    ItemIndex = 0
+    Items.Strings = (
+      'Forward'
+      'Backward'
+    )
+    ParentColor = True
+    Left = 176
+    Height = 56
+    Top = 72
+    Width = 122
+  end
+  object Scope: TRadioGroup
+    BorderSpacing.OnChange = nil
+    Caption = 'Scope'
+    ItemIndex = 0
+    Items.Strings = (
+      'Global'
+      'Selected Text'
+    )
+    ParentColor = True
+    Left = 176
+    Height = 56
+    Top = 184
+    Width = 122
+  end
+  object Origin: TRadioGroup
+    BorderSpacing.OnChange = nil
+    Caption = 'Origin'
+    ItemIndex = 0
+    Items.Strings = (
+      'From Cursor'
+      'Entire Scope'
+    )
+    ParentColor = True
+    Left = 176
+    Height = 56
+    Top = 128
+    Width = 122
+  end
+  object FindReplaceButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Find'
+    OnClick = FindReplaceClick
+    TabOrder = 6
+    Left = 16
+    Height = 25
+    Top = 248
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 7
+    Left = 208
+    Height = 25
+    Top = 248
+    Width = 75
+  end
+  object ReplaceAllButton: TButton
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Replace All'
+    OnClick = ReplaceAllClick
+    TabOrder = 8
+    Left = 107
+    Height = 25
+    Top = 248
+    Width = 83
+  end
+end

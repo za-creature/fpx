@@ -1,0 +1,58 @@
+object GotoLineDialog: TGotoLineDialog
+  ActiveControl = Line
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Goto Line'
+  ClientHeight = 100
+  ClientWidth = 150
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 149
+  VertScrollBar.Page = 99
+  Left = 588
+  Height = 100
+  Top = 358
+  Width = 150
+  object GotoLineLabel: TLabel
+    Caption = 'Enter the Line Number:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 8
+    Width = 112
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    Default = True
+    OnClick = OkButtonClick
+    TabOrder = 1
+    Left = 8
+    Height = 25
+    Top = 64
+    Width = 64
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 2
+    Left = 80
+    Height = 25
+    Top = 64
+    Width = 66
+  end
+  object Line: TSpinEdit
+    MinValue = 1
+    TabOrder = 0
+    Value = 1
+    Left = 8
+    Height = 20
+    Top = 32
+    Width = 138
+  end
+end

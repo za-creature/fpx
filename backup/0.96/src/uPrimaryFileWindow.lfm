@@ -1,0 +1,56 @@
+object PrimaryFileWindow: TPrimaryFileWindow
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = 'Primary File'
+  ClientHeight = 212
+  ClientWidth = 184
+  OnCloseQuery = FormCloseQuery
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  HorzScrollBar.Page = 183
+  VertScrollBar.Page = 211
+  Left = 582
+  Height = 212
+  Top = 358
+  Width = 184
+  object PrimaryFileLabel: TLabel
+    Alignment = taCenter
+    BorderSpacing.OnChange = nil
+    Caption = 'Select the Primary File:'
+    Color = clNone
+    Layout = tlCenter
+    Height = 13
+    Top = 8
+    Width = 110
+  end
+  object OkButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'OK'
+    OnClick = OkClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 176
+    Width = 80
+  end
+  object CancelButton: TButton
+    BorderSpacing.OnChange = nil
+    BorderSpacing.InnerBorder = 2
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 96
+    Height = 25
+    Top = 176
+    Width = 80
+  end
+  object FileList: TListBox
+    BorderSpacing.OnChange = nil
+    TabOrder = 2
+    Left = 8
+    Height = 144
+    Top = 24
+    Width = 168
+  end
+end

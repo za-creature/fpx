@@ -1,0 +1,27 @@
+MAINICON ICON "myicon.ico"
+1 24 fpx.manifest
+1 VERSIONINFO  
+FILEVERSION 1,0,0,2
+PRODUCTVERSION 1,0,0,2
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "Comments", "FreePascal Integrated Development Environment for MS Windows and Linux"
+   VALUE "CompanyName", "GameLabs"
+   VALUE "FileDescription", "FreePascal Integrated Development Environment for MS Windows and Linux"
+   VALUE "FileVersion", "1.0.0.2\000"
+   VALUE "InternalName", "fpx\000"
+   VALUE "LegalCopyright", "Dan Radu Sergiu\000"
+   VALUE "LegalTrademarks", "\000"
+   VALUE "OriginalFilename", "fpx.exe\000"
+   VALUE "ProductName", "fpx\000"
+   VALUE "ProductVersion", "1.0.0.2\000"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 1033, 1252
+ }
+}

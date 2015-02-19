@@ -1,0 +1,21 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TInternalEvaluatorDialog','FORMDATA',[
+  'TPF0'#24'TInternalEvaluatorDialog'#23'InternalEvaluatorDialog'#13'ActiveCont'
+  +'rol'#7#12'CancelButton'#11'BorderIcons'#11#12'biSystemMenu'#0#7'Caption'#6
+  +#13'Evaluating...'#12'ClientHeight'#2'd'#11'ClientWidth'#3#144#1#9'FormStyle'
+  +#7#11'fsStayOnTop'#8'OnCreate'#7#10'FormCreate'#9'OnDestroy'#7#11'FormDestro'
+  +'y'#13'PixelsPerInch'#2'`'#8'Position'#7#14'poScreenCenter'#13'ShowInTaskBar'
+  +#7#7'stNever'#18'HorzScrollBar.Page'#3#143#1#18'VertScrollBar.Page'#2'c'#4'L'
+  +'eft'#3'e'#1#6'Height'#2'd'#3'Top'#3#209#0#5'Width'#3#144#1#0#6'TLabel'#11'S'
+  +'tatusLabel'#7'Caption'#6#7'Status:'#5'Color'#7#6'clNone'#11'ParentColor'#8#4
+  +'Left'#2#8#6'Height'#2#14#3'Top'#2#8#5'Width'#2'$'#0#0#6'TLabel'#19'EntirePr'
+  +'ogressLabel'#7'Caption'#6#16'Entire progress:'#5'Color'#7#6'clNone'#11'Pare'
+  +'ntColor'#8#4'Left'#2#8#6'Height'#2#14#3'Top'#2' '#5'Width'#2'N'#0#0#7'TButt'
+  +'on'#12'CancelButton'#7'Anchors'#11#5'akTop'#0#25'BorderSpacing.InnerBorder'
+  +#2#4#6'Cancel'#9#7'Caption'#6#6'Cancel'#7'Default'#9#7'OnClick'#7#17'CancelB'
+  +'uttonClick'#8'TabOrder'#2#0#4'Left'#3#162#0#6'Height'#2#25#3'Top'#2'H'#5'Wi'
+  +'dth'#2'K'#0#0#12'TProgressBar'#11'ProgressBar'#7'Anchors'#11#5'akTop'#6'akL'
+  +'eft'#7'akRight'#0#3'Max'#2'd'#4'Left'#2#8#6'Height'#2#20#3'Top'#2'0'#5'Widt'
+  +'h'#3#128#1#0#0#0
+]);

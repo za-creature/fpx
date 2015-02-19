@@ -1,0 +1,19 @@
+LazarusResources.Add('TRuntimeParametersWindow','FORMDATA',[
+  'TPF0'#24'TRuntimeParametersWindow'#23'RuntimeParametersWindow'#11'BorderIcon'
+  +'s'#11#0#11'BorderStyle'#7#8'bsSingle'#7'Caption'#6#10'Parameters'#12'Client'
+  +'Height'#2'Z'#11'ClientWidth'#3#200#0#12'OnCloseQuery'#7#14'FormCloseQuery'
+  +#13'PixelsPerInch'#2'`'#8'Position'#7#16'poMainFormCenter'#18'HorzScrollBar.'
+  +'Page'#3#199#0#18'VertScrollBar.Page'#2'Y'#4'Left'#3'D'#2#6'Height'#2'Z'#3'T'
+  +'op'#3'h'#1#5'Width'#3#200#0#0#12'TLabeledEdit'#10'Parameters'#22'BorderSpac'
+  +'ing.OnChange'#13#17'EditLabel.Caption'#6#29'Enter the runtime parameters:'
+  +#15'EditLabel.Color'#7#6'clNone'#16'EditLabel.Height'#2#13#14'EditLabel.Left'
+  +#2#8#13'EditLabel.Top'#2#9#15'EditLabel.Width'#3#146#0#14'EditLabel.Left'#2#8
+  +#16'EditLabel.Height'#2#13#13'EditLabel.Top'#2#9#15'EditLabel.Width'#3#146#0
+  +#8'TabOrder'#2#0#4'Left'#2#8#6'Height'#2#25#3'Top'#2#24#5'Width'#3#184#0#0#0
+  +#7'TButton'#8'OkButton'#22'BorderSpacing.OnChange'#13#25'BorderSpacing.Inner'
+  +'Border'#2#2#7'Caption'#6#2'Ok'#7'OnClick'#7#7'OkClick'#8'TabOrder'#2#1#4'Le'
+  +'ft'#2#16#6'Height'#2#25#3'Top'#2'8'#5'Width'#2'K'#0#0#7'TButton'#12'CancelB'
+  +'utton'#22'BorderSpacing.OnChange'#13#25'BorderSpacing.InnerBorder'#2#2#7'Ca'
+  +'ption'#6#6'Cancel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2#2#4'Left'#2'h'
+  +#6'Height'#2#25#3'Top'#2'8'#5'Width'#2'K'#0#0#0
+]);

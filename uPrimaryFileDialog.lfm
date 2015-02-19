@@ -1,0 +1,57 @@
+object PrimaryFileDialog: TPrimaryFileDialog
+  ActiveControl = FileList
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Primary File'
+  ClientHeight = 212
+  ClientWidth = 184
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 183
+  VertScrollBar.Page = 211
+  Left = 582
+  Height = 212
+  Top = 358
+  Width = 184
+  object PrimaryFileLabel: TLabel
+    Alignment = taCenter
+    Caption = 'Select the Primary File:'
+    Color = clNone
+    Layout = tlCenter
+    ParentColor = False
+    Height = 14
+    Top = 8
+    Width = 111
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'OK'
+    Default = True
+    OnClick = OkClick
+    TabOrder = 0
+    Left = 8
+    Height = 25
+    Top = 176
+    Width = 80
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Cancel = True
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 1
+    Left = 96
+    Height = 25
+    Top = 176
+    Width = 80
+  end
+  object FileList: TListBox
+    TabOrder = 2
+    Left = 8
+    Height = 144
+    Top = 24
+    Width = 168
+  end
+end

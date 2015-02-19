@@ -1,0 +1,206 @@
+object FindDialog: TFindDialog
+  ActiveControl = TextInput
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Find'
+  ClientHeight = 280
+  ClientWidth = 304
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 303
+  VertScrollBar.Page = 279
+  Left = 402
+  Height = 280
+  Top = 440
+  Width = 304
+  object TextToFindLabel: TLabel
+    Caption = 'Text To Find:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 12
+    Width = 65
+  end
+  object ReplaceWithLabel: TLabel
+    Caption = 'Replace With:'
+    Color = clNone
+    ParentColor = False
+    Left = 8
+    Height = 14
+    Top = 39
+    Width = 68
+  end
+  object TextInput: TEdit
+    OnKeyDown = TextInputKeyDown
+    TabOrder = 0
+    Left = 88
+    Height = 23
+    Top = 8
+    Width = 210
+  end
+  object ReplaceInput: TEdit
+    OnKeyDown = TextInputKeyDown
+    TabOrder = 1
+    Left = 88
+    Height = 23
+    Top = 35
+    Width = 210
+  end
+  object CheckGroup1: TCheckGroup
+    AutoFill = True
+    Caption = 'Options'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 2
+    Left = 8
+    Height = 168
+    Top = 72
+    Width = 160
+    object CaseSensitive: TCheckBox
+      Caption = 'Case Sensitive'
+      TabOrder = 0
+      Left = 6
+      Height = 28
+      Top = 6
+      Width = 144
+    end
+    object WholeWordsOnly: TCheckBox
+      Caption = 'Whole Words Only'
+      TabOrder = 1
+      Left = 6
+      Height = 28
+      Top = 34
+      Width = 144
+    end
+    object PromptOnReplace: TCheckBox
+      Caption = 'Prompt on Replace'
+      TabOrder = 2
+      Left = 6
+      Height = 28
+      Top = 62
+      Width = 144
+    end
+    object RegularExp: TCheckBox
+      Caption = 'Regular Expressions'
+      TabOrder = 3
+      Left = 6
+      Height = 28
+      Top = 90
+      Width = 144
+    end
+    object MultiLine: TCheckBox
+      Caption = 'Multi Line'
+      Enabled = False
+      TabOrder = 4
+      Left = 6
+      Height = 26
+      Top = 118
+      Width = 144
+    end
+  end
+  object Direction: TRadioGroup
+    AutoFill = True
+    Caption = 'Direction'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ItemIndex = 0
+    Items.Strings = (
+      'Forward'
+      'Backward'
+    )
+    TabOrder = 3
+    Left = 176
+    Height = 56
+    Top = 72
+    Width = 122
+  end
+  object Scope: TRadioGroup
+    AutoFill = True
+    Caption = 'Scope'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ItemIndex = 0
+    Items.Strings = (
+      'Global'
+      'Selected Text'
+    )
+    TabOrder = 4
+    Left = 176
+    Height = 56
+    Top = 184
+    Width = 122
+  end
+  object Origin: TRadioGroup
+    AutoFill = True
+    Caption = 'Origin'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    ItemIndex = 0
+    Items.Strings = (
+      'From Cursor'
+      'Entire Scope'
+    )
+    TabOrder = 5
+    Left = 176
+    Height = 56
+    Top = 128
+    Width = 122
+  end
+  object FindReplaceButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Find'
+    OnClick = FindReplaceClick
+    TabOrder = 6
+    Left = 16
+    Height = 25
+    Top = 248
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 7
+    Left = 208
+    Height = 25
+    Top = 248
+    Width = 75
+  end
+  object ReplaceAllButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Replace All'
+    OnClick = ReplaceAllClick
+    TabOrder = 8
+    Left = 107
+    Height = 25
+    Top = 248
+    Width = 83
+  end
+end

@@ -1,0 +1,201 @@
+object EditorOptionsDialog: TEditorOptionsDialog
+  ActiveControl = OkButton
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'Editor'
+  ClientHeight = 223
+  ClientWidth = 376
+  FormStyle = fsStayOnTop
+  PixelsPerInch = 96
+  Position = poMainFormCenter
+  ShowInTaskBar = stNever
+  HorzScrollBar.Page = 375
+  VertScrollBar.Page = 222
+  Left = 343
+  Height = 223
+  Top = 476
+  Width = 376
+  object IndentingOptionsGroup: TGroupBox
+    Caption = 'Indenting Options'
+    ClientHeight = 55
+    ClientWidth = 174
+    TabOrder = 0
+    Left = 8
+    Height = 73
+    Top = 8
+    Width = 178
+    object AutoIndent: TCheckBox
+      Caption = 'Auto Indent'
+      TabOrder = 0
+      Left = 6
+      Height = 13
+      Width = 75
+    end
+    object TabIndent: TCheckBox
+      Caption = 'Tab Indent'
+      TabOrder = 1
+      Left = 6
+      Height = 13
+      Top = 20
+      Width = 72
+    end
+    object AutoIndentOnPaste: TCheckBox
+      Caption = 'Auto Indent on Paste'
+      TabOrder = 2
+      Left = 6
+      Height = 13
+      Top = 40
+      Width = 120
+    end
+  end
+  object EditingGroup: TCheckGroup
+    AutoFill = True
+    Caption = 'Editing'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 1
+    Left = 192
+    Height = 176
+    Top = 8
+    Width = 176
+    object DragAndDropEditing: TCheckBox
+      Caption = 'Drag and Drop Editing'
+      TabOrder = 0
+      Left = 6
+      Height = 19
+      Top = 6
+      Width = 160
+    end
+    object DropFiles: TCheckBox
+      Caption = 'Drop Files'
+      TabOrder = 1
+      Left = 6
+      Height = 19
+      Top = 25
+      Width = 160
+    end
+    object EnhanceHomeKey: TCheckBox
+      Caption = 'Enhance Home Key'
+      TabOrder = 2
+      Left = 6
+      Height = 19
+      Top = 44
+      Width = 160
+    end
+    object NoCaret: TCheckBox
+      Caption = 'No Caret'
+      TabOrder = 3
+      Left = 6
+      Height = 19
+      Top = 63
+      Width = 160
+    end
+    object SmartTabs: TCheckBox
+      Caption = 'Smart Tabs'
+      TabOrder = 4
+      Left = 6
+      Height = 19
+      Top = 82
+      Width = 160
+    end
+    object TabsToSpaces: TCheckBox
+      Caption = 'Tabs To Spaces'
+      TabOrder = 5
+      Left = 6
+      Height = 19
+      Top = 101
+      Width = 160
+    end
+    object DoubleClickSelectsLine: TCheckBox
+      Caption = 'Double Click Selects Line'
+      TabOrder = 6
+      Left = 6
+      Height = 19
+      Top = 120
+      Width = 160
+    end
+    object RightMouseMovesCursor: TCheckBox
+      Caption = 'Right Mouse moves Cursor'
+      TabOrder = 7
+      Left = 6
+      Height = 13
+      Top = 139
+      Width = 160
+    end
+  end
+  object MiscelaneousGroup: TCheckGroup
+    AutoFill = True
+    Caption = 'Miscelaneous'
+    ChildSizing.LeftRightSpacing = 6
+    ChildSizing.TopBottomSpacing = 6
+    ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+    ChildSizing.EnlargeVertical = crsHomogenousChildResize
+    ChildSizing.ShrinkHorizontal = crsScaleChilds
+    ChildSizing.ShrinkVertical = crsScaleChilds
+    ChildSizing.Layout = cclLeftToRightThenTopToBottom
+    ChildSizing.ControlsPerLine = 1
+    TabOrder = 2
+    Left = 8
+    Height = 96
+    Top = 88
+    Width = 178
+    object ShowLineNumbers: TCheckBox
+      Caption = 'Show Line Numbers'
+      TabOrder = 0
+      Left = 6
+      Height = 17
+      Top = 6
+      Width = 162
+    end
+    object ScrollByOneLess: TCheckBox
+      Caption = 'Scroll by one less'
+      TabOrder = 1
+      Left = 6
+      Height = 17
+      Top = 23
+      Width = 162
+    end
+    object HighlightBrackets: TCheckBox
+      Caption = 'Highlight Brackets'
+      TabOrder = 2
+      Left = 6
+      Height = 17
+      Top = 40
+      Width = 162
+    end
+    object PreferInsertMode: TCheckBox
+      Caption = 'Prefer Insert Mode'
+      TabOrder = 3
+      Left = 6
+      Height = 15
+      Top = 57
+      Width = 162
+    end
+  end
+  object OkButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Ok'
+    OnClick = OkClick
+    TabOrder = 3
+    Left = 112
+    Height = 25
+    Top = 192
+    Width = 75
+  end
+  object CancelButton: TButton
+    BorderSpacing.InnerBorder = 4
+    Caption = 'Cancel'
+    OnClick = CancelClick
+    TabOrder = 4
+    Left = 192
+    Height = 25
+    Top = 192
+    Width = 75
+  end
+end

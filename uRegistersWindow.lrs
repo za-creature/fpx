@@ -1,0 +1,54 @@
+LazarusResources.Add('TRegistersWindow','FORMDATA',[
+  'TPF0'#16'TRegistersWindow'#15'RegistersWindow'#13'ActiveControl'#7#14'PageCo'
+  +'ntroller'#11'BorderIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#13'bsSize'
+  +'ToolWin'#7'Caption'#6#9'Registers'#12'ClientHeight'#3#200#0#11'ClientWidth'
+  +#3','#1#9'FormStyle'#7#11'fsStayOnTop'#7'OnClose'#7#9'FormClose'#8'OnCreate'
+  +#7#10'FormCreate'#13'PixelsPerInch'#2'`'#8'Position'#7#9'poDefault'#13'ShowI'
+  +'nTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3'+'#1#18'VertScrollBar.Page'
+  +#3#199#0#4'Left'#3#244#1#6'Height'#3#200#0#3'Top'#3#144#1#5'Width'#3','#1#0
+  +#12'TPageControl'#14'PageController'#10'ActivePage'#7#8'SSESheet'#5'Align'#7
+  +#8'alClient'#8'TabIndex'#2#3#8'TabOrder'#2#0#6'Height'#3#200#0#5'Width'#3','
+  +#1#0#9'TTabSheet'#19'GeneralPurposeSheet'#7'Caption'#6#15'General Purpose'#12
+  +'ClientHeight'#3#174#0#11'ClientWidth'#3'$'#1#6'Height'#3#174#0#5'Width'#3'$'
+  +#1#0#9'TListView'#16'GeneralRegisters'#5'Align'#7#8'alClient'#7'Columns'#14#1
+  +#7'Caption'#6#4'Name'#0#1#7'Caption'#6#11'Hexadecimal'#5'Width'#2'n'#0#1#7'C'
+  +'aption'#6#7'Decimal'#5'Width'#2'n'#0#0#11'MultiSelect'#9#8'ReadOnly'#9#9'Ro'
+  +'wSelect'#9#8'TabOrder'#2#0#9'ViewStyle'#7#8'vsReport'#6'Height'#3#174#0#5'W'
+  +'idth'#3'$'#1#0#0#0#9'TTabSheet'#18'FloatingPointSheet'#7'Caption'#6#14'Floa'
+  +'ting Point'#12'ClientHeight'#3#174#0#11'ClientWidth'#3'$'#1#6'Height'#3#174
+  +#0#5'Width'#3'$'#1#0#9'TListView'#22'FloatingPointRegisters'#5'Align'#7#8'al'
+  +'Client'#7'Columns'#14#1#7'Caption'#6#4'Name'#0#1#7'Caption'#6#8'FP Value'#5
+  +'Width'#2'x'#0#1#7'Caption'#6#9'Raw Value'#5'Width'#2's'#0#0#11'MultiSelect'
+  +#9#8'ReadOnly'#9#9'RowSelect'#9#8'TabOrder'#2#0#9'ViewStyle'#7#8'vsReport'#6
+  +'Height'#3#174#0#5'Width'#3'$'#1#0#0#0#9'TTabSheet'#8'MMXSheet'#7'Caption'#6
+  +#3'MMX'#12'ClientHeight'#3#174#0#11'ClientWidth'#3'$'#1#6'Height'#3#174#0#5
+  +'Width'#3'$'#1#0#11'TRadioGroup'#15'MMXSizeSelector'#5'Align'#7#8'alBottom'#8
+  +'AutoFill'#9#7'Caption'#6#18'View registers as:'#28'ChildSizing.LeftRightSpa'
+  +'cing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizo'
+  +'ntal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'c'
+  +'rsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChil'
+  +'ds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layo'
+  +'ut'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#4
+  +#7'Columns'#2#4#9'ItemIndex'#2#0#13'Items.Strings'#1#6#7'v8_int8'#6#8'v4_int'
+  +'16'#6#8'v2_int32'#6#5'int64'#0#7'OnClick'#7#20'MMXSizeSelectorClick'#8'TabO'
+  +'rder'#2#0#6'Height'#2'('#3'Top'#3#134#0#5'Width'#3'$'#1#0#0#9'TListView'#12
+  +'MMXRegisters'#5'Align'#7#8'alClient'#7'Columns'#14#1#7'Caption'#6#4'Name'#0
+  +#1#7'Caption'#6#5'Value'#5'Width'#3#220#0#0#0#11'MultiSelect'#9#9'RowSelect'
+  +#9#8'TabOrder'#2#1#9'ViewStyle'#7#8'vsReport'#6'Height'#3#134#0#5'Width'#3'$'
+  +#1#0#0#0#9'TTabSheet'#8'SSESheet'#7'Caption'#6#3'SSE'#12'ClientHeight'#3#174
+  +#0#11'ClientWidth'#3'$'#1#6'Height'#3#174#0#5'Width'#3'$'#1#0#11'TRadioGroup'
+  +#15'SSESizeSelector'#5'Align'#7#8'alBottom'#8'AutoFill'#9#7'Caption'#6#18'Vi'
+  +'ew registers as:'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.TopBo'
+  +'ttomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChildR'
+  +'esize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28'Ch'
+  +'ildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVerti'
+  +'cal'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenTop'
+  +'ToBottom'#27'ChildSizing.ControlsPerLine'#2#4#7'Columns'#2#4#9'ItemIndex'#2
+  +#0#13'Items.Strings'#1#6#8'v16_int8'#6#8'v8_int16'#6#8'v4_int32'#6#8'v2_int6'
+  +'4'#6#8'v4_float'#6#9'v2_double'#6#6'int128'#0#7'OnClick'#7#20'SSESizeSelect'
+  +'orClick'#8'TabOrder'#2#0#6'Height'#2'<'#3'Top'#2'r'#5'Width'#3'$'#1#0#0#9'T'
+  +'ListView'#12'SSERegisters'#5'Align'#7#8'alClient'#7'Columns'#14#1#7'Caption'
+  +#6#4'Name'#0#1#7'Caption'#6#5'Value'#5'Width'#3#220#0#0#0#11'MultiSelect'#9#8
+  +'ReadOnly'#9#9'RowSelect'#9#8'TabOrder'#2#1#9'ViewStyle'#7#8'vsReport'#6'Hei'
+  +'ght'#2'r'#5'Width'#3'$'#1#0#0#0#0#0
+]);

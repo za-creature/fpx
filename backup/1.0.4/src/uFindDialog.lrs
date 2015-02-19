@@ -1,0 +1,68 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TFindDialog','FORMDATA',[
+  'TPF0'#11'TFindDialog'#10'FindDialog'#13'ActiveControl'#7#9'TextInput'#11'Bor'
+  +'derIcons'#11#12'biSystemMenu'#0#11'BorderStyle'#7#8'bsSingle'#7'Caption'#6#4
+  +'Find'#12'ClientHeight'#3#24#1#11'ClientWidth'#3'0'#1#9'FormStyle'#7#11'fsSt'
+  +'ayOnTop'#13'PixelsPerInch'#2'`'#8'Position'#7#16'poMainFormCenter'#13'ShowI'
+  +'nTaskBar'#7#7'stNever'#18'HorzScrollBar.Page'#3'/'#1#18'VertScrollBar.Page'
+  +#3#23#1#4'Left'#3#146#1#6'Height'#3#24#1#3'Top'#3#184#1#5'Width'#3'0'#1#0#6
+  +'TLabel'#15'TextToFindLabel'#7'Caption'#6#13'Text To Find:'#5'Color'#7#6'clN'
+  +'one'#11'ParentColor'#8#4'Left'#2#8#6'Height'#2#14#3'Top'#2#12#5'Width'#2'A'
+  +#0#0#6'TLabel'#16'ReplaceWithLabel'#7'Caption'#6#13'Replace With:'#5'Color'#7
+  +#6'clNone'#11'ParentColor'#8#4'Left'#2#8#6'Height'#2#14#3'Top'#2''''#5'Width'
+  +#2'D'#0#0#5'TEdit'#9'TextInput'#9'OnKeyDown'#7#16'TextInputKeyDown'#8'TabOrd'
+  +'er'#2#0#4'Left'#2'X'#6'Height'#2#23#3'Top'#2#8#5'Width'#3#210#0#0#0#5'TEdit'
+  +#12'ReplaceInput'#9'OnKeyDown'#7#16'TextInputKeyDown'#8'TabOrder'#2#1#4'Left'
+  +#2'X'#6'Height'#2#23#3'Top'#2'#'#5'Width'#3#210#0#0#0#11'TCheckGroup'#11'Che'
+  +'ckGroup1'#8'AutoFill'#9#7'Caption'#6#7'Options'#28'ChildSizing.LeftRightSpa'
+  +'cing'#2#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizo'
+  +'ntal'#7#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'c'
+  +'rsHomogenousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChil'
+  +'ds'#26'ChildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layo'
+  +'ut'#7#29'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1
+  +#8'TabOrder'#2#2#4'Left'#2#8#6'Height'#3#168#0#3'Top'#2'H'#5'Width'#3#160#0#0
+  +#9'TCheckBox'#13'CaseSensitive'#7'Caption'#6#14'Case Sensitive'#8'TabOrder'#2
+  +#0#4'Left'#2#6#6'Height'#2#28#3'Top'#2#6#5'Width'#3#144#0#0#0#9'TCheckBox'#14
+  +'WholeWordsOnly'#7'Caption'#6#16'Whole Words Only'#8'TabOrder'#2#1#4'Left'#2
+  +#6#6'Height'#2#28#3'Top'#2'"'#5'Width'#3#144#0#0#0#9'TCheckBox'#15'PromptOnR'
+  +'eplace'#7'Caption'#6#17'Prompt on Replace'#8'TabOrder'#2#2#4'Left'#2#6#6'He'
+  +'ight'#2#28#3'Top'#2'>'#5'Width'#3#144#0#0#0#9'TCheckBox'#10'RegularExp'#7'C'
+  +'aption'#6#19'Regular Expressions'#8'TabOrder'#2#3#4'Left'#2#6#6'Height'#2#28
+  +#3'Top'#2'Z'#5'Width'#3#144#0#0#0#9'TCheckBox'#9'MultiLine'#7'Caption'#6#10
+  +'Multi Line'#7'Enabled'#8#8'TabOrder'#2#4#4'Left'#2#6#6'Height'#2#26#3'Top'#2
+  +'v'#5'Width'#3#144#0#0#0#0#11'TRadioGroup'#9'Direction'#8'AutoFill'#9#7'Capt'
+  +'ion'#6#9'Direction'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSizing.Top'
+  +'BottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogenousChil'
+  +'dResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResize'#28
+  +'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.ShrinkVer'
+  +'tical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRightThenT'
+  +'opToBottom'#27'ChildSizing.ControlsPerLine'#2#1#9'ItemIndex'#2#0#13'Items.S'
+  +'trings'#1#6#7'Forward'#6#8'Backward'#0#8'TabOrder'#2#3#4'Left'#3#176#0#6'He'
+  +'ight'#2'8'#3'Top'#2'H'#5'Width'#2'z'#0#0#11'TRadioGroup'#5'Scope'#8'AutoFil'
+  +'l'#9#7'Caption'#6#5'Scope'#28'ChildSizing.LeftRightSpacing'#2#6#28'ChildSiz'
+  +'ing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7#24'crsHomogen'
+  +'ousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomogenousChildResi'
+  +'ze'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'ChildSizing.Sh'
+  +'rinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29'cclLeftToRig'
+  +'htThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#9'ItemIndex'#2#0#13
+  +'Items.Strings'#1#6#6'Global'#6#13'Selected Text'#0#8'TabOrder'#2#4#4'Left'#3
+  +#176#0#6'Height'#2'8'#3'Top'#3#184#0#5'Width'#2'z'#0#0#11'TRadioGroup'#6'Ori'
+  +'gin'#8'AutoFill'#9#7'Caption'#6#6'Origin'#28'ChildSizing.LeftRightSpacing'#2
+  +#6#28'ChildSizing.TopBottomSpacing'#2#6#29'ChildSizing.EnlargeHorizontal'#7
+  +#24'crsHomogenousChildResize'#27'ChildSizing.EnlargeVertical'#7#24'crsHomoge'
+  +'nousChildResize'#28'ChildSizing.ShrinkHorizontal'#7#14'crsScaleChilds'#26'C'
+  +'hildSizing.ShrinkVertical'#7#14'crsScaleChilds'#18'ChildSizing.Layout'#7#29
+  +'cclLeftToRightThenTopToBottom'#27'ChildSizing.ControlsPerLine'#2#1#9'ItemIn'
+  +'dex'#2#0#13'Items.Strings'#1#6#11'From Cursor'#6#12'Entire Scope'#0#8'TabOr'
+  +'der'#2#5#4'Left'#3#176#0#6'Height'#2'8'#3'Top'#3#128#0#5'Width'#2'z'#0#0#7
+  +'TButton'#17'FindReplaceButton'#25'BorderSpacing.InnerBorder'#2#4#7'Caption'
+  +#6#4'Find'#7'Default'#9#7'OnClick'#7#16'FindReplaceClick'#8'TabOrder'#2#6#4
+  +'Left'#2#16#6'Height'#2#25#3'Top'#3#248#0#5'Width'#2'K'#0#0#7'TButton'#12'Ca'
+  +'ncelButton'#25'BorderSpacing.InnerBorder'#2#4#6'Cancel'#9#7'Caption'#6#6'Ca'
+  +'ncel'#7'OnClick'#7#11'CancelClick'#8'TabOrder'#2#7#4'Left'#3#208#0#6'Height'
+  +#2#25#3'Top'#3#248#0#5'Width'#2'K'#0#0#7'TButton'#16'ReplaceAllButton'#25'Bo'
+  +'rderSpacing.InnerBorder'#2#4#7'Caption'#6#11'Replace All'#7'OnClick'#7#15'R'
+  +'eplaceAllClick'#8'TabOrder'#2#8#4'Left'#2'k'#6'Height'#2#25#3'Top'#3#248#0#5
+  +'Width'#2'S'#0#0#0
+]);
